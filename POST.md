@@ -222,6 +222,10 @@ I measured the running cost by replaying 5 held-out bookings (45 replies) throug
 
 **It can learn her way of talking.** This matters most to me. With a closed model I could only write a long prompt and hope. With an open one, I can fine-tune on Sugar's real chats once she's used it for a few weeks: her actual phrases, the styles her customers really ask for, her new prices. Same script, new dataset, a few dollars. Prompting got the base model to 22.5% exact orders. Training got it to 95%.
 
+## My Agent Session
+
+{% agent_session building-sugar-nails-nocuim %}
+
 ## Prize Categories
 
 **Best Use of Tinker.** Tinker is the core of this project, not an add-on. I used the Tinker SDK and `tinker-cookbook` to LoRA fine-tune Qwen3-8B on 1,751 per-turn examples in under 5 minutes for about $1.65. I sampled base and fine-tuned models through Tinker's `SamplingClient` for the before/after evaluation, and the live site serves the fine-tuned checkpoint through Tinker's OpenAI-compatible endpoint, at about ₦0.31 per reply. The fine-tune took exact orders from 22.5% to 95% on held-out chats and completed every one of my hand-written messy Pidgin chats.
