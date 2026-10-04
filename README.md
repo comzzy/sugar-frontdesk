@@ -87,6 +87,8 @@ pip install playwright && playwright install chromium
 python tests/e2e.py http://localhost:8090
 ```
 
+`python tests/record_desktop.py <url>` and then `tests/edit_desktop.py` (run with a Python that has `kokoro-onnx`) produce the narrated `screenshots/demo-desktop.mp4`. The voice is Kokoro-82M `af_heart`, run locally. Other customers' cards are hidden and the PIN is never typed on screen.
+
 `python tests/record_demo.py <url>` records one booking at phone width and builds `screenshots/demo.gif` (needs ffmpeg). It makes one test booking, so delete it afterwards with `DELETE /api/queue/<id>` and the `X-Pin` header. Sugar can use the same call to remove a single booking.
 
 ## Deploying

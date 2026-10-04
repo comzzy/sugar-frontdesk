@@ -31,6 +31,8 @@ The front desk is an **open-weight model (Qwen3-8B) that I fine-tuned with LoRA 
 
 *A real booking on the live site at phone width, answered by the fine-tuned model. The waits for each reply (about 5 seconds) are sped up in the GIF.*
 
+🎬 **Narrated desktop walkthrough (86 s):** https://github.com/comzzy/sugar-frontdesk/releases/download/demo-video-v1/demo-desktop.mp4. It covers a booking, the test payment, the queue ticket, and Sugar tapping Start and Done. The waits for the model's replies are cut short.
+
 🔗 **Live site:** https://sugar-nails-nine.vercel.app (Sugar's queue: `/queue`, demo PIN `2580`)
 💻 **Code:** https://github.com/comzzy/sugar-frontdesk
 
