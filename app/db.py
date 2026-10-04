@@ -97,6 +97,15 @@ if USE_BLOB:
             rows = [r for r in ex.map(_load, paths) if r]
         return _with_positions(rows)
 
+    def remove(bid: str) -> bool:
+        """Delete one booking (queue copy and draft copy)."""
+        if not bid.isalnum():
+            return False
+        urls = [i.url for pre in ("queue", "drafts") for i in _blist(prefix=f"{pre}/{bid}.json").blobs]
+        if urls:
+            _bdel(urls)
+        return bool(urls)
+
     def clear_all() -> int:
         """Delete every booking (queue + drafts). Returns how many were removed."""
         n = 0
@@ -169,3 +178,7 @@ else:
             n = c.execute("SELECT COUNT(*) FROM bookings WHERE paid=1").fetchone()[0]
             c.execute("DELETE FROM bookings")
         return n
+
+    def remove(bid: str) -> bool:
+        with _lock, _conn() as c:
+            return c.execute("DELETE FROM bookings WHERE id=?", (bid,)).rowcount > 0

@@ -30,6 +30,7 @@ The studio address lives in `menu.ADDRESS` and the system prompt. The model was 
 - `training/gen_dataset.py` writes 360 training chats and 40 held-out ones. A simulated customer picks a real booking, then chats about it in different ways: tapping chips, typing in Pidgin, cramming three details into one message, giving a bad phone number, asking prices, changing their mind about colours. The front-desk replies are written from the true booking, so every target order and total is correct.
 - `training/train_sft.py` uses the Tinker SDK and `tinker_cookbook` renderers. Each front-desk turn becomes its own example, with loss only on that turn.
 - That came to 1,751 examples (1.87M tokens per epoch), 2 epochs, batch 32, 108 steps, learning rate 4.7e-4 with linear decay. Mean NLL went from 1.87 to 0.036. It took about 5 minutes and roughly **$1.65** (3.74M training tokens at $0.44/M), plus a few cents of sampling for the evals.
+- Running it is cheap too. I replayed 5 held-out bookings (45 replies) through the live checkpoint: about 1,000 prompt tokens and 62 output tokens per reply. At Tinker's Qwen3-8B prices ($0.195/M prompt, $0.60/M output) that's about $0.00023 per reply and $0.0021 per booking, roughly ₦0.31 and ₦2.80 at ₦1,329.60/$ (CBN, 2 Oct 2026). Raw counts are in `training/results/inference_cost.json`.
 
 ### Did it help?
 
@@ -85,6 +86,8 @@ To run the end-to-end test (two full bookings, one tapping options on desktop an
 pip install playwright && playwright install chromium
 python tests/e2e.py http://localhost:8090
 ```
+
+`python tests/record_demo.py <url>` records one booking at phone width and builds `screenshots/demo.gif` (needs ffmpeg). It makes one test booking, so delete it afterwards with `DELETE /api/queue/<id>` and the `X-Pin` header. Sugar can use the same call to remove a single booking.
 
 ## Deploying
 

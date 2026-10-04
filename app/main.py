@@ -197,6 +197,15 @@ def queue_clear(x_pin: str | None = Header(default=None)):
     return {"ok": True, "removed": db.clear_all()}
 
 
+@app.delete("/api/queue/{bid}")
+def queue_remove(bid: str, x_pin: str | None = Header(default=None)):
+    """Remove a single booking (e.g. a test booking or a duplicate)."""
+    _check_pin(x_pin)
+    if not db.remove(bid):
+        raise HTTPException(404, "not found")
+    return {"ok": True}
+
+
 @app.post("/api/queue/{bid}/{action}")
 def queue_action(bid: str, action: str, x_pin: str | None = Header(default=None)):
     _check_pin(x_pin)

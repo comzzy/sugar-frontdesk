@@ -20,17 +20,21 @@ So I built her one.
 
 **Sugar Nails · Front Desk** has two screens:
 
-1. **The customer site** (on the customer's phone, from a link or a QR code at her station). A chat with the front desk greets you, takes your name and number, then asks what you want: the service, the style or design, colours, length, shape, allergies or notes, and what time. You can tap the options or just type how you talk, in English or Pidgin. You see the full order and the total in naira, pay, and get a live ticket: *"You're #2 · 1 person ahead of you."*
+1. **The customer site** (on the customer's phone, from a link she shares or a QR code she can print for her station). A chat with the front desk greets you, takes your name and number, then asks what you want: the service, the style or design, colours, length, shape, allergies or notes, and what time. You can tap the options or just type how you talk, in English or Pidgin. You see the full order and the total in naira, pay, and get a live ticket: *"You're #2 · 1 person ahead of you."*
 2. **Sugar's queue** (PIN-protected, on her phone or tablet). This shows who's in the chair, who's next and everyone's order card: services, style, colour swatches, length, shape, a highlighted allergy note, the price and whether they've paid. She taps **Start** when a client sits down and **Done** when they leave. New bookings chime and slide in on their own.
 
 The front desk is an **open-weight model (Qwen3-8B) that I fine-tuned with LoRA on Tinker** to speak in Sugar's voice, know her menu and prices, and end every booking with a structured order the app can trust.
 
 ## Demo
 
+![A full booking on a phone: chat, order summary, test payment, queue ticket, then Sugar's queue](https://raw.githubusercontent.com/comzzy/sugar-frontdesk/main/screenshots/demo.gif)
+
+*A real booking on the live site at phone width, answered by the fine-tuned model. The waits for each reply (about 5 seconds) are sped up in the GIF.*
+
 🔗 **Live site:** https://sugar-nails-nine.vercel.app (Sugar's queue: `/queue`, demo PIN `2580`)
 💻 **Code:** https://github.com/comzzy/sugar-frontdesk
 
-Payments run in **test mode**, so no real money moves. With a Paystack key, the same button opens Paystack's checkout.
+Payments run in **test mode**, so no real money moves. The Paystack hosted checkout is wired in behind the same button and switches on when a Paystack key is set. I haven't run it with a real key yet.
 
 | Customer: landing | Customer: booking chat | Customer: paid |
 |---|---|---|
@@ -40,17 +44,22 @@ Payments run in **test mode**, so no real money moves. With a Paystack key, the 
 
 ![Sugar's queue with a client in the chair and the next one waiting](https://raw.githubusercontent.com/comzzy/sugar-frontdesk/main/screenshots/desktop-09-queue-started.png)
 
-This is a real chat from the fine-tuned model. The customer typed in Pidgin and packed four details into one message:
+This is a real chat from the live site, answered by the fine-tuned model. The customer typed in Pidgin and packed four details into one message:
 
-> **Front desk:** Thank you Blessing! What would you like done today?
+> **Customer:** Hello, I wan book
+> **Front desk:** Welcome o! Wetin be your name?
+> **Customer:** call me Blessing
+> **Front desk:** Welcome Blessing! What number can we reach you on?
+> **Customer:** 0813 555 2041
+> **Front desk:** Perfect. Which service do you want? Pick as many as you like.
 > **Customer:** abeg I wan do gel x, long coffin, french tip
 > **Front desk:** Okay o! Which colours are we using?
 > **Customer:** nude and milky white
 > **Front desk:** Before I forget, any allergies or special notes for Sugar?
 > **Customer:** no allergies o
-> **Front desk:** When should we expect you?
+> **Front desk:** Last one: what time works for you?
 > **Customer:** by 4pm today
-> **Front desk:** Perfect, Blessing! Here's your booking: Gel-X Extensions ₦20,000 · Classic French tips +₦3,000 · Long length +₦2,000 · Coffin · Nude, Milky white · Total **₦25,000**
+> **Front desk:** All set, Blessing. Please check: *(order card: Gel-X Extensions ₦20,000 · Classic French tips +₦3,000 · Long length +₦2,000 · Coffin · Nude, Milky white · Total **₦25,000**)* Tap Pay to lock your spot in Sugar's queue. 💅
 
 It understood "gel x" as Gel-X Extensions, didn't re-ask for the length, shape or style it had already been given, and went straight to the next thing it didn't know.
 
@@ -138,7 +147,7 @@ Two safety nets:
 
 ### 5. The site
 
-FastAPI and SQLite on the back end. The front end is hand-written HTML, CSS and JS with no framework. I wanted it to feel like Sugar's salon, not a template: blush and cream with deep plum, glossy liquid polish swirls, a script display font, silver-bevel pill buttons and circular frames. All the artwork is CSS or inline SVG I drew myself: a 14-shade swatch wheel made of almond nails that slowly turns, a polish bottle with a drip that falls and refills, nail previews for each style. There are no photos and no generated images. It's animated end to end (letter-by-letter title, scroll reveals, chat bubbles, typing dots, chips popping in, a check mark and polish-drop confetti when you pay, and queue cards that slide to their new spots with FLIP animation), and all of it switches off for `prefers-reduced-motion`.
+FastAPI on the back end, with SQLite when it runs locally and Vercel Blob storage for the live queue. The front end is hand-written HTML, CSS and JS with no framework. I wanted it to feel like Sugar's salon, not a template: blush and cream with deep plum, glossy liquid polish swirls, a script display font, silver-bevel pill buttons and circular frames. All the artwork is CSS or inline SVG I drew myself: a 14-shade swatch wheel made of almond nails that slowly turns, a polish bottle with a drip that falls and refills, nail previews for each style. There are no photos and no generated images. It's animated end to end (letter-by-letter title, scroll reveals, chat bubbles, typing dots, chips popping in, a check mark and polish-drop confetti when you pay, and queue cards that slide to their new spots with FLIP animation), and all of it switches off for `prefers-reduced-motion`.
 
 ## Did fine-tuning actually help? Before vs after
 
@@ -167,7 +176,7 @@ I evaluated base Qwen3-8B (same system prompt, same menu, same format instructio
 
 What the base model did wrong is telling. Given *"abeg I wan do acrylic, long coffin, chrome. wine colour"*, base Qwen3 replied *"Amarachi, got it! You're booking Acrylic Full. 🎨 What's your preferred time? [chips: Morning | Afternoon | Evening]"*. It skipped the allergy question, invented its own chips, then kept asking the customer to "confirm the time" in **bold markdown** and never produced an order the app could read. The fine-tune kept all four details, asked about allergies, then the time, and finished with a correct ₦23,500 order. The rules engine gets close on field accuracy but only gets the *whole* order right half the time, because real people don't type like regexes expect.
 
-The fine-tune isn't perfect. On three held-out bookings it got the total wrong, twice because it picked the wrong add-on and once with a plain arithmetic slip. That's exactly why the server recomputes the price.
+The fine-tune isn't perfect. On three held-out bookings it got the total wrong: once it picked the wrong add-on, once the wrong length, and once it made a plain arithmetic slip (₦28,500 instead of ₦18,500). That's exactly why the server recomputes the price.
 
 All numbers and full transcripts are in [`training/results/`](https://github.com/comzzy/sugar-frontdesk/tree/main/training/results).
 
@@ -177,7 +186,7 @@ All numbers and full transcripts are in [`training/results/`](https://github.com
 
 **Her customers' details stay hers.** The front desk handles names, phone numbers, allergies and payment. With an open model, the chats can stay on infrastructure she chooses. Nobody's data becomes training material for someone else's model.
 
-**It's cheap enough for a one-woman business.** Training cost less than a gel refill. An 8B model with thinking turned off answers in a few seconds, and each message costs well under a naira. A small model that knows one job well beats a giant general model here.
+**It's cheap enough for a one-woman business.** Training cost about $1.65, roughly ₦2,200, which is less than one gel polish appointment on her menu. On the live site, each reply takes about 5 to 6 seconds. I measured the running cost by replaying 5 held-out bookings (45 replies) through the deployed checkpoint and reading the token counts Tinker returned: about 1,000 prompt tokens and 62 output tokens per reply. At Tinker's published Qwen3-8B prices ($0.195 per million prompt tokens, $0.60 per million output tokens, from [the Tinker models page](https://tinker-docs.thinkingmachines.ai/tinker/models/)), that's **$0.00023 per reply, about ₦0.31**, and **$0.0021 per full booking, about ₦2.80**, at the CBN rate of ₦1,329.60 to the dollar (2 October 2026). That assumes no prompt caching, which would only make it cheaper. The raw counts are in `training/results/inference_cost.json`. A small model that knows one job well beats a giant general model here.
 
 **It can learn *her* way of talking.** This is the big one. A closed model would only let me write a long prompt and hope. With an open model, I can **fine-tune on Sugar's real chats** once she's used it for a few weeks: her actual phrases, the styles her customers really ask for, her new prices. It's the same script, a new dataset and a few dollars. Prompting got the base model to 22.5% exact orders. Training got it to 95%.
 
