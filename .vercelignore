@@ -1,0 +1,7 @@
+.venv
+data
+screenshots
+training
+tests
+.env*
+*.db

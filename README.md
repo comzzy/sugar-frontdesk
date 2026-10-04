@@ -96,6 +96,7 @@ This drives two full bookings, one tapping chips on desktop and one typed in Pid
 
 ## Deploying
 
+* Sugar's dashboard has a PIN-protected **Clear test bookings** button (`POST /api/queue/clear` with `X-Pin`) that empties the queue and unpaid drafts.
 * **Vercel** (live at https://sugar-nails-nine.vercel.app): `vercel.json` is included and FastAPI is auto-detected from `app/main.py`, with static assets in `public/`. Vercel functions are stateless, so when `BLOB_READ_WRITE_TOKEN` is present (link a **private** Vercel Blob store to the project), `app/db.py` stores each booking as its own private JSON blob and the queue is shared across instances. Set `TINKER_API_KEY` (plus optionally `QUEUE_PIN` and `PAYSTACK_SECRET_KEY`) in the project's environment variables so the fine-tuned model answers. Without it, the fallback engine answers.
 * **Anywhere else**: `uvicorn main:app --app-dir app --host 0.0.0.0 --port $PORT`.
 
