@@ -271,7 +271,7 @@ def _match(kws, text: str, multi=False):
 
 def extract_name(text: str) -> str:
     t = re.sub(r"(?i)\b(hi|hello|hey|good (morning|afternoon|evening))\b[,!.]?", " ", text)
-    t = re.sub(r"(?i)\b(my name is|my name na|i am|i'm|im|na|call me|it's|its|name is|this is)\b", " ", t)
+    t = re.sub(r"(?i)\b(my name is|my name na|i am|i'm|im|i be|na me|me be|na|call me|it's|its|name is|this is)\b", " ", t)
     words = [w.strip(".,!?").capitalize() for w in t.split() if re.match(r"^[A-Za-z'-]+[.,!?]*$", w)]
     return " ".join(words[:3])
 

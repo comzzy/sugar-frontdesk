@@ -9,7 +9,8 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 BASE = sys.argv[1] if len(sys.argv) > 1 else "http://localhost:8090"
-SHOTS = Path(__file__).resolve().parent.parent / "screenshots"
+import os
+SHOTS = Path(os.environ.get("E2E_SHOTS") or Path(__file__).resolve().parent.parent / "screenshots")
 SHOTS.mkdir(exist_ok=True)
 PIN = "2580"
 
