@@ -8,7 +8,7 @@ tags: hf26challenge, devchallenge, ai, opensource
 
 ## Meet Sugar
 
-Sugar does nails in Lagos. Gel, acrylic, Gel-X, BIAB, French tips, chrome, little hand-painted flowers, all of it. She's good, so she's busy.
+Sugar does nails in GRA, Port Harcourt. Gel, acrylic, Gel-X, BIAB, French tips, chrome, little hand-painted flowers, all of it. She's good, so she's busy.
 
 She has one problem, and I've watched it happen many times: **her hands are always full.** She has a client's hand in one hand and a brush in the other when the next customer walks in, or her phone lights up with *"Hi dear, are you free today? How much is acrylic?"* She can't stop to answer. She can't write down who came first. She can't ask whether you want coffin or almond, nude or wine, or whether you're allergic to anything. So people wait, people leave, and the order of who's next lives in her head.
 
@@ -70,7 +70,7 @@ I couldn't train on Sugar's real chats yet. That's part of the point, more on th
 - asks *"how much be gel-x?"* in the middle of booking
 - changes their mind after the summary (*"abeg change the colour to wine"*)
 
-The front-desk side is written **from the ground truth**, in a warm Lagos voice ("No wahala!", "E go fine well well!", "Okay o!"), so every target order and total is correct by construction. Every booking ends like this:
+The front-desk side is written **from the ground truth**, in a warm Port Harcourt voice ("No wahala!", "E go fine well well!", "Okay o!"), so every target order and total is correct by construction. Every booking ends like this:
 
 ```text
 Perfect, Chioma! Here's your booking:

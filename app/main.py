@@ -18,7 +18,7 @@ from pydantic import BaseModel
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import db  # noqa: E402
 import llm  # noqa: E402
-from engine import ScriptedEngine, normalise_order, parse_reply  # noqa: E402
+from engine import LOCATION_Q, ScriptedEngine, fix_location, location_answer, normalise_order, parse_reply  # noqa: E402
 
 PUBLIC = Path(__file__).resolve().parent.parent / "public"
 STATIC = PUBLIC / "static"
@@ -88,8 +88,10 @@ async def chat(body: ChatIn):
         ms = int((time.time() - t) * 1000)
     if text is None:
         engine = "fallback"
-        text = fallback.respond(users)
-    parsed = parse_reply(text)
+        # a location question isn't a slot answer ("Where..." is not a name)
+        text = fallback.respond([u for u in users if not LOCATION_Q.search(u)] or ["hi"])
+    parsed = parse_reply(fix_location(text))
+    parsed["text"] = location_answer(users, parsed["text"])
     out = {"text": parsed["text"], "chips": parsed["chips"], "multi": parsed["multi"], "engine": engine, "ms": ms}
     if parsed["order"]:
         order = normalise_order(parsed["order"])

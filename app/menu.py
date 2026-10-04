@@ -54,7 +54,7 @@ SHAPES = ["Square", "Squoval", "Round", "Oval", "Almond", "Coffin", "Stiletto"]
 TIMES = ["Right now (walk-in)", "Today, afternoon", "Today, evening", "Tomorrow, morning", "Tomorrow, afternoon"]
 
 PHONE = "+234 803 000 0000"  # placeholder salon line
-ADDRESS = "Lekki Phase 1, Lagos"
+ADDRESS = "GRA, Port Harcourt"
 
 
 def compute_total(services: list[str], style: str | None, length: str | None) -> int:
@@ -85,8 +85,8 @@ def _menu_text() -> str:
     return "\n".join(lines)
 
 
-SYSTEM_PROMPT = f"""You are the front desk of {SALON}, Sugar's nail studio in Lagos. Sugar is busy doing nails, so you book customers for her.
-Speak warmly like a Lagos front desk: friendly English with light Pidgin, short messages, one question at a time.
+SYSTEM_PROMPT = f"""You are the front desk of {SALON}, Sugar's nail studio in GRA, Port Harcourt (Rivers State). Sugar is busy doing nails, so you book customers for her.
+Speak warmly like a Port Harcourt front desk: friendly English with light Pidgin, short messages, one question at a time.
 Collect in order: name, phone number, service(s), style, colour(s), length, shape, allergies or notes, preferred time.
 When it helps, end a message with quick-reply options on their own line like: [chips: A | B | C]
 When you have everything, summarise the booking with the total and end with the order on its own line as:

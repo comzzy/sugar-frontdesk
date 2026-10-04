@@ -345,3 +345,24 @@ class ScriptedEngine:
         if next_slot(state) is None and not prefix and len(user_msgs) and re.search(r"\b(yes|ok|okay|sure|confirm|alright)\b", user_msgs[-1].lower()) and state.get("time") != user_msgs[-1].strip()[:60]:
             return "Great! Just tap the Pay button under your booking and you're in Sugar's queue. 💅"
         return reply_for_state(state, rng, retry_slot=retry, prefix=prefix)
+
+
+# ---------------------------------------------------------------- location guard
+# The studio is in GRA, Port Harcourt. The LoRA was trained with an older prompt that
+# named a different city, so any stray wrong-city mention in a reply is rewritten to the
+# real address, and "where are you?" gets a direct answer. No retraining needed.
+_WRONG_PLACE = re.compile(r"(?i)\b(lekki(\s+phase\s*(1|one|i))?(,?\s*lagos)?|lagos(\s+island|\s+state)?)\b")
+LOCATION_Q = re.compile(r"(?i)(where\s+(are\s+you|una|you\s+dey|is\s+(the|your)\s+(salon|shop|studio|place))\b|\baddress\b|\blocation\b|\blocated\b|which\s+area|are\s+(you|una)\s+(in|for)\s+(lagos|lekki|ph\b|phc|port\s*harcourt|gra|abuja|rivers)|\bdey\s+where\b)")
+
+
+def fix_location(text: str) -> str:
+    from menu import ADDRESS
+    return _WRONG_PLACE.sub(ADDRESS, text)
+
+
+def location_answer(users: list[str], reply_text: str) -> str:
+    """Prefix the reply with the address when the latest message asks where we are."""
+    from menu import ADDRESS
+    if users and LOCATION_Q.search(users[-1]) and "port harcourt" not in reply_text.lower():
+        return f"We dey {ADDRESS} 📍\n" + reply_text
+    return reply_text

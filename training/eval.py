@@ -8,7 +8,7 @@ On 40 held-out synthetic conversations:
       price_correct   : model's total == menu price of the *true* order
   * MID turn    - one random earlier turn per conversation.
       right_question  : asks for the correct next detail
-      tone            : warm Lagos voice (Pidgin/warm markers), short (< 320 chars), single question
+      tone            : warm Port Harcourt voice (Pidgin/warm markers), short (< 320 chars), single question
       chips           : offers valid quick-reply chips when the next detail has fixed choices
 
 Usage: python training/eval.py [--model base|tuned|both] [--n 40]
