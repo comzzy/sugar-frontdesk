@@ -1,0 +1,44 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{
+ "model": "base",
+ "json_valid": 0.75,
+ "field_accuracy": 0.642,
+ "exact_order": 0.125,
+ "price_correct": 0.25,
+ "per_field": {
+  "name": 0.75,
+  "phone": 0.75,
+  "services": 0.725,
+  "style": 0.75,
+  "colours": 0.525,
+  "length": 0.675,
+  "shape": 0.725,
+  "notes": 0.325,
+  "time": 0.55
+ },
+ "right_question": 0.625,
+ "tone": 0.075,
+ "chips": 0.125,
+ "mean_latency_s": 2.21
+}
+{
+ "model": "rule_based_fallback",
+ "json_valid": 0.925,
+ "field_accuracy": 0.711,
+ "exact_order": 0.0,
+ "price_correct": 0.825,
+ "per_field": {
+  "name": 0.0,
+  "phone": 0.925,
+  "services": 0.825,
+  "style": 0.925,
+  "colours": 0.775,
+  "length": 0.9,
+  "shape": 0.875,
+  "notes": 0.6,
+  "time": 0.575
+ },
+ "right_question": 0.925,
+ "tone": 0.15,
+ "chips": 0.925
+}

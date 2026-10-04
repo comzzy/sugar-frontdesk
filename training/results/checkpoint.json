@@ -1,0 +1,14 @@
+{
+ "base_model": "Qwen/Qwen3-8B",
+ "renderer": "qwen3_disable_thinking",
+ "lora_rank": 32,
+ "batch_size": 32,
+ "epochs": 2,
+ "examples": 1751,
+ "tokens_per_epoch": 1868393,
+ "learning_rate": 0.00047297908091376354,
+ "steps": 108,
+ "sampler_path": "tinker://00631ae2-a716-5a02-882b-28a1cdeccbbe:train:0/sampler_weights/sugar-frontdesk-final",
+ "state_path": "tinker://00631ae2-a716-5a02-882b-28a1cdeccbbe:train:0/weights/sugar-frontdesk-final-state",
+ "train_seconds": 279.9
+}

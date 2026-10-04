@@ -1,0 +1,4 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+base {'booking_completed': 0.5, 'field_accuracy': 0.417, 'exact_order': 0.083, 'price_correct': 0.333, 'mean_turns': 10.5}
+fine_tuned {'booking_completed': 1.0, 'field_accuracy': 0.991, 'exact_order': 0.917, 'price_correct': 1.0, 'mean_turns': 7.25}
+rule_based_fallback {'booking_completed': 1.0, 'field_accuracy': 0.944, 'exact_order': 0.5, 'price_correct': 0.833, 'mean_turns': 7.08}

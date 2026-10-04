@@ -1,0 +1,76 @@
+{
+ "n_conversations": 40,
+ "results": {
+  "base": {
+   "model": "base",
+   "json_valid": 0.725,
+   "field_accuracy": 0.636,
+   "exact_order": 0.225,
+   "price_correct": 0.35,
+   "per_field": {
+    "name": 0.725,
+    "phone": 0.725,
+    "services": 0.7,
+    "style": 0.725,
+    "colours": 0.6,
+    "length": 0.65,
+    "shape": 0.675,
+    "notes": 0.4,
+    "time": 0.525
+   },
+   "right_question": 0.6,
+   "on_voice": 0.925,
+   "warm_marker_rate": 0.075,
+   "mean_reply_chars": 89.7,
+   "chips": 0.175,
+   "mean_latency_s": 2.25
+  },
+  "fine_tuned": {
+   "model": "fine_tuned",
+   "json_valid": 1.0,
+   "field_accuracy": 0.994,
+   "exact_order": 0.95,
+   "price_correct": 0.925,
+   "per_field": {
+    "name": 1.0,
+    "phone": 1.0,
+    "services": 1.0,
+    "style": 0.975,
+    "colours": 1.0,
+    "length": 0.975,
+    "shape": 1.0,
+    "notes": 1.0,
+    "time": 1.0
+   },
+   "right_question": 0.95,
+   "on_voice": 0.975,
+   "warm_marker_rate": 0.1,
+   "mean_reply_chars": 50.0,
+   "chips": 0.975,
+   "mean_latency_s": 2.56
+  },
+  "rule_based_fallback": {
+   "model": "rule_based_fallback",
+   "json_valid": 0.925,
+   "field_accuracy": 0.864,
+   "exact_order": 0.525,
+   "price_correct": 0.825,
+   "per_field": {
+    "name": 0.925,
+    "phone": 0.925,
+    "services": 0.825,
+    "style": 0.925,
+    "colours": 0.925,
+    "length": 0.9,
+    "shape": 0.875,
+    "notes": 0.6,
+    "time": 0.875
+   },
+   "right_question": 0.9,
+   "on_voice": 0.975,
+   "warm_marker_rate": 0.075,
+   "mean_reply_chars": 48.4,
+   "chips": 0.925
+  }
+ }
+}

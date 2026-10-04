@@ -1,0 +1,2608 @@
+{
+ "base": [
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Amarachi"
+   },
+   {
+    "role": "assistant",
+    "content": "Amarachi, nice to meet you! 🌸 What's your phone number?"
+   },
+   {
+    "role": "user",
+    "content": "07062223344"
+   },
+   {
+    "role": "assistant",
+    "content": "Amarachi, thanks for the number! 📱 What service would you like? [chips: Gel Hands | Gel Toes | Acrylic Full | Gel-X | BIAB | Press-On | Refill | Manicure | Pedicure | Removal]"
+   },
+   {
+    "role": "user",
+    "content": "abeg I wan do acrylic, long coffin, chrome. wine colour"
+   },
+   {
+    "role": "assistant",
+    "content": "Amarachi, got it! You're booking Acrylic Full. 🎨 What's your preferred time? [chips: Morning | Afternoon | Evening]"
+   },
+   {
+    "role": "user",
+    "content": "Today, evening"
+   },
+   {
+    "role": "assistant",
+    "content": "Amarachi, perfect! 🌇 You're all set for your Acrylic Full with Chrome style, Wine colour, and Long coffin shape. Let me just confirm the time: **Evening today**? [chips: Yes | No]"
+   },
+   {
+    "role": "user",
+    "content": "Chrome / glazed"
+   },
+   {
+    "role": "assistant",
+    "content": "Amarachi, thanks for the style! 🌟 You're booking **Acrylic Full** with **Chrome / glazed** style, **Wine** colour, **Long** length, and **Coffin** shape. Let me just confirm the time: **Evening today**? [chips: Yes | No]"
+   },
+   {
+    "role": "user",
+    "content": "Chrome / glazed"
+   },
+   {
+    "role": "assistant",
+    "content": "Amarachi, thanks for the style! 🌟 You're booking **Acrylic Full** with **Chrome / glazed** style, **Wine** colour, **Long** length, and **Coffin** shape. Let me just confirm the time: **Evening today**? [chips: Yes | No]"
+   },
+   {
+    "role": "user",
+    "content": "Chrome / glazed"
+   },
+   {
+    "role": "assistant",
+    "content": "Amarachi, you're booking **Acrylic Full** with **Chrome / glazed** style, **Wine** colour, **Long** length, and **Coffin** shape. Let me just confirm the time: **Evening today**? [chips: Yes | No]"
+   },
+   {
+    "role": "user",
+    "content": "Chrome / glazed"
+   },
+   {
+    "role": "assistant",
+    "content": "Amarachi, you're booking **Acrylic Full** with **Chrome / glazed** style, **Wine** colour, **Long** length, and **Coffin** shape. Let me just confirm the time: **Evening today**? [chips: Yes | No]"
+   },
+   {
+    "role": "user",
+    "content": "Chrome / glazed"
+   },
+   {
+    "role": "assistant",
+    "content": "Amarachi, you're booking **Acrylic Full** with **Chrome / glazed** style, **Wine** colour, **Long** length, and **Coffin** shape. Let me just confirm the time: **Evening today**? [chips: Yes | No]"
+   },
+   {
+    "role": "user",
+    "content": "Chrome / glazed"
+   },
+   {
+    "role": "assistant",
+    "content": "Amarachi, you're booking **Acrylic Full** with **Chrome / glazed** style, **Wine** colour, **Long** length, and **Coffin** shape. Let me just confirm the time: **Evening today**? [chips: Yes | No]"
+   },
+   {
+    "role": "user",
+    "content": "Chrome / glazed"
+   },
+   {
+    "role": "assistant",
+    "content": "Amarachi, you're booking **Acrylic Full** with **Chrome / glazed** style, **Wine** colour, **Long** length, and **Coffin** shape. Let me just confirm the time: **Evening today**? [chips: Yes | No]"
+   },
+   {
+    "role": "user",
+    "content": "Chrome / glazed"
+   },
+   {
+    "role": "assistant",
+    "content": "Amarachi, you're booking **Acrylic Full** with **Chrome / glazed** style, **Wine** colour, **Long** length, and **Coffin** shape. Let me just confirm the time: **Evening today**? [chips: Yes | No]"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "my name na Funmi Adeyemi"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Funmi Adeyemi, so nice to meet you! 😊 What's your phone number?"
+   },
+   {
+    "role": "user",
+    "content": "o8o3 is wrong sorry 08034445566"
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks, Funmi! 08034445566 is the correct number. 😊 What service would you like?  \n[chips: gel_hands | gel_toes | acrylic_full | gelx | biab | press_on | refill | manicure | pedicure | removal]"
+   },
+   {
+    "role": "user",
+    "content": "i want pedicure and gel for toes"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it, Funmi! You're booking a pedicure and gel for toes. 😊 What style would you like?  \n[chips: plain | french | ombre | chrome | cat_eye | marble | nail_art | stones | flowers_3d]"
+   },
+   {
+    "role": "user",
+    "content": "Plain / solid colour"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, plain/solid colour for your gel toes. 😊 What colour would you like?  \n[chips: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "Red"
+   },
+   {
+    "role": "assistant",
+    "content": "Lovely choice, Funmi! Red for your gel toes. 😊 What length would you like?  \n[chips: natural | short | medium | long | xl]"
+   },
+   {
+    "role": "user",
+    "content": "Short"
+   },
+   {
+    "role": "assistant",
+    "content": "Short length for your gel toes. 😊 What shape would you like?  \n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Short"
+   },
+   {
+    "role": "assistant",
+    "content": "Short shape for your gel toes. 😊 Any allergies or notes?"
+   },
+   {
+    "role": "user",
+    "content": "n/a"
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks, Funmi! No allergies or notes. 😊 What time would you like?  \n[chips: 10:00 AM | 11:00 AM | 1:00 PM | 2:00 PM | 3:00 PM | 4:00 PM]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks, Funmi! No allergies. 😊 What time would you like?  \n[chips: 10:00 AM | 11:00 AM | 1:00 PM | 2:00 PM | 3:00 PM | 4:00 PM]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks, Funmi! No allergies. 😊 What time would you like?  \n[chips: 10:00 AM | 11:00 AM | 1:00 PM | 2:00 PM | 3:00 PM | 4:00 PM]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks, Funmi! No allergies. 😊 What time would you like?  \n[chips: 10:00 AM | 11:00 AM | 1:00 PM | 2:00 PM | 3:00 PM | 4:00 PM]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks, Funmi! No allergies. 😊 What time would you like?  \n[chips: 10:00 AM | 11:00 AM | 1:00 PM | 2:00 PM | 3:00 PM | 4:00 PM]"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Ify"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Ify! 😊 What's your phone number?"
+   },
+   {
+    "role": "user",
+    "content": "+234 816 777 8899"
+   },
+   {
+    "role": "assistant",
+    "content": "Great! 🌟 What service would you like? [chips: gel_hands | gel_toes | acrylic_full | gelx | biab | press_on | refill | manicure | pedicure | removal]"
+   },
+   {
+    "role": "user",
+    "content": "Remove my old acrylic first then do gel-x extensions"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay, Ify, we'll start with the removal of your old acrylic. 🧼 Then we'll do the Gel-X extensions. What style would you like for the Gel-X? [chips: plain | french | ombre | chrome | cat_eye | marble | nail_art | stones | flowers_3d]"
+   },
+   {
+    "role": "user",
+    "content": "french tip"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, French tips are so chic! 💄 What colour would you like for your Gel-X? [chips: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "milky white"
+   },
+   {
+    "role": "assistant",
+    "content": "Lovely choice, Ify! 🌸 What length would you like for your Gel-X? [chips: natural | short | medium | long | xl]"
+   },
+   {
+    "role": "user",
+    "content": "Medium"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect! Medium length is so versatile. 💅 What shape would you like for your Gel-X? [chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Medium"
+   },
+   {
+    "role": "assistant",
+    "content": "Oops, I meant to ask for the shape! 😊 What shape would you like for your Gel-X? [chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Almond"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, almond shape is so elegant! 💄 Any allergies or notes I should know about?"
+   },
+   {
+    "role": "user",
+    "content": "Almond"
+   },
+   {
+    "role": "assistant",
+    "content": "Oops, I meant to ask for the shape! 😊 What shape would you like for your Gel-X? [chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Almond"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, almond shape is so elegant! 💄 Any allergies or notes I should know about?"
+   },
+   {
+    "role": "user",
+    "content": "Almond"
+   },
+   {
+    "role": "assistant",
+    "content": "Oops, I meant to ask for the shape! 😊 What shape would you like for your Gel-X? [chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Almond"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, almond shape is so elegant! 💄 Any allergies or notes I should know about?"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Hello good afternoon"
+   },
+   {
+    "role": "assistant",
+    "content": "Good afternoon! 😊 What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Zee"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Zee! 😊 What's your phone number?"
+   },
+   {
+    "role": "user",
+    "content": "09051112233"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it, Zee! 🌟 What service would you like? [chips: Gel Hands | Gel Toes | Acrylic Full | Gel-X | BIAB | Press-On | Refill | Manicure | Pedicure | Removal]"
+   },
+   {
+    "role": "user",
+    "content": "BIAB overlay pls, I like that cat eye thing"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, cat-eye is so cute! 😍 So you're booking BIAB Overlay with Cat-eye style? [chips: Yes | No]"
+   },
+   {
+    "role": "user",
+    "content": "gold"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, gold is so elegant! 😍 What length would you like? [chips: Natural | Short | Medium | Long | XL]"
+   },
+   {
+    "role": "user",
+    "content": "Short"
+   },
+   {
+    "role": "assistant",
+    "content": "Short is perfect! 💅 What shape would you like? [chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Oval"
+   },
+   {
+    "role": "assistant",
+    "content": "Oval is so chic! 😍 What colour would you like? [chips: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "Gold"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, gold on gold is so glamorous! 💎 Any allergies or notes? [chips: None | Yes]"
+   },
+   {
+    "role": "user",
+    "content": "Sensitive skin"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it, Zee! We'll use hypoallergenic products for your sensitive skin. 😊 What time would you like your appointment? [chips: 10 AM | 11 AM | 1 PM | 2 PM | 3 PM]"
+   },
+   {
+    "role": "user",
+    "content": "Sensitive skin"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it, Zee! We'll use hypoallergenic products for your sensitive skin. 😊 What time would you like your appointment? [chips: 10 AM | 11 AM | 1 PM | 2 PM | 3 PM]"
+   },
+   {
+    "role": "user",
+    "content": "Sensitive skin"
+   },
+   {
+    "role": "assistant",
+    "content": "Oops, I think I repeated that! 😊 Let me check again. You said \"Sensitive skin\" earlier, so we're all set with hypoallergenic products. What time would you like your appointment? [chips: 10 AM | 11 AM | 1 PM | 2 PM | 3 PM]"
+   },
+   {
+    "role": "user",
+    "content": "Sensitive skin"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, I see! Let me just confirm – you're booking BIAB Overlay with Cat-eye style, Gold colour, Oval shape, Short length, and you have sensitive skin. 😊 What time would you like your appointment? [chips: 10 AM | 11 AM | 1 PM | 2 PM | 3 PM]"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Tolani"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Tolani! 😊 What's your phone number?"
+   },
+   {
+    "role": "user",
+    "content": "0701 234 5678"
+   },
+   {
+    "role": "assistant",
+    "content": "Great! 🌟 What service would you like? [chips: gel_hands | gel_toes | acrylic_full | gelx | biab | press_on | refill | manicure | pedicure | removal]"
+   },
+   {
+    "role": "user",
+    "content": "press on nails, extra long stiletto, with stones and bling"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, you're getting some serious glam! 💎✨ What's your preferred time?"
+   },
+   {
+    "role": "user",
+    "content": "black and silver"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay, Tolani! 🌟 You're getting **Custom Press-Ons** with **Black & Silver** colours, **Extra Long Stiletto** shape, and **Rhinestones & Charms** style. What's your preferred time?"
+   },
+   {
+    "role": "user",
+    "content": "Rhinestones & charms"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, you're getting some serious glam! 💎✨ What's your preferred time?"
+   },
+   {
+    "role": "user",
+    "content": "Tomorrow, afternoon"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect! 🌟 Let me just confirm your details:\n\n- **Name:** Tolani  \n- **Phone:** 0701 234 5678  \n- **Service:** Custom Press-Ons  \n- **Style:** Rhinestones & Charms  \n- **Colours:** Black, Silver  \n- **Shape:** Stiletto  \n- **Length:** Extra Long  \n- **Time:** Tomorrow, Afternoon  \n\nYour total is **₦17,000** (Custom Press-Ons ₦12,000 + Stones ₦3,000 + XL Length ₦4,000).  \n\n<order>{\"name\": \"Tolani\", \"phone\": \"0701 234 5678\", \"services\": [\"press_on\"], \"style\": \"stones\", \"colours\": [\"Black\", \"Silver\"], \"length\": \"xl\", \"shape\": \"Stiletto\", \"notes\": \"\", \"time\": \"Tomorrow, Afternoon\", \"total\": 17000}</order>  \n\nSee you then! 💅✨"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "call me Kiki"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Kiki! 😊 What's your phone number so I can text you the details?"
+   },
+   {
+    "role": "user",
+    "content": "08129990001"
+   },
+   {
+    "role": "assistant",
+    "content": "Great! 🎉 What service would you like? [chips: Gel Hands | Gel Toes | Acrylic Full | Gel-X | BIAB | Press-On | Refill | Manicure | Pedicure | Removal]"
+   },
+   {
+    "role": "user",
+    "content": "just manicure today"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, Kiki! 🌸 What style would you like? [chips: Plain | French | Ombre | Chrome | Cat-Eye | Marble | Nail Art | Stones | Flowers 3D]"
+   },
+   {
+    "role": "user",
+    "content": "my left thumb nail broke o"
+   },
+   {
+    "role": "assistant",
+    "content": "Oh no, Kiki! 😢 Don't worry, we can fix that. What colour would you like for your left thumb? [chips: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "Nude"
+   },
+   {
+    "role": "assistant",
+    "content": "Lovely choice, Kiki! 💕 What length would you like? [chips: Natural | Short | Medium | Long | XL]"
+   },
+   {
+    "role": "user",
+    "content": "Short"
+   },
+   {
+    "role": "assistant",
+    "content": "Short is perfect for a classic look, Kiki! 💅 What shape would you like your nails? [chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Square"
+   },
+   {
+    "role": "assistant",
+    "content": "Square is such a chic shape, Kiki! 💅 Any allergies or special notes I should know about?"
+   },
+   {
+    "role": "user",
+    "content": "Square"
+   },
+   {
+    "role": "assistant",
+    "content": "Oops, I meant to ask about your preferred shape! 😊 What shape would you like your nails? [chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Square"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it, Kiki! 💅 Your nails will be Square, Short, and in Nude. What time would you like your manicure?"
+   },
+   {
+    "role": "user",
+    "content": "Right now (walk-in)"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, Kiki! 🌟 Your booking is all set for a Classic Manicure with a Square shape, Short length, and Nude colour. No allergies or notes, and you're coming in right now. \n\nYour total is ₦5,000. \n\n<order>{\"name\": \"Kiki\", \"phone\": \"08129990001\", \"services\": [\"manicure\"], \"style\": \"plain\", \"colours\": [\"Nude\"], \"length\": \"short\", \"shape\": \"Square\", \"notes\": \"\", \"time\": \"Right now (walk-in)\", \"total\": 5000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Hauwa Musa"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Hauwa Musa, so nice to meet you! 😊 What's your phone number?"
+   },
+   {
+    "role": "user",
+    "content": "08025556677"
+   },
+   {
+    "role": "assistant",
+    "content": "Great, 08025556677! 📱 What service would you like? [chips: Gel Hands | Gel Toes | Acrylic Full | Gel-X | BIAB | Press-On | Refill | Manicure | Pedicure | Removal]"
+   },
+   {
+    "role": "user",
+    "content": "acrylic refill + 3d flowers"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, you're getting an Acrylic Refill with 3D Flowers! 🌸 What style would you like? [chips: Plain | French | Ombre | Chrome | Cat-Eye | Marble | Nail Art | Stones | Flowers 3D]"
+   },
+   {
+    "role": "user",
+    "content": "baby pink"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, baby pink is so cute! 💕 What length would you like? [chips: Natural | Short | Medium | Long | XL]"
+   },
+   {
+    "role": "user",
+    "content": "medium"
+   },
+   {
+    "role": "assistant",
+    "content": "You're getting a Medium length with Baby Pink and 3D Flowers! 🌸 What shape would you like? [chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "square"
+   },
+   {
+    "role": "assistant",
+    "content": "You're all set with Square shape, Baby Pink, 3D Flowers, and Medium length! 🌸 Any allergies or notes I should know about?"
+   },
+   {
+    "role": "user",
+    "content": "Medium"
+   },
+   {
+    "role": "assistant",
+    "content": "Oops, I think I missed that! You said \"Medium\" for length earlier. Let me confirm — is that correct? [chips: Yes | No]"
+   },
+   {
+    "role": "user",
+    "content": "Medium"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, you're getting a Medium length with Baby Pink, 3D Flowers, and Square shape! 🌸 What time would you like your appointment?"
+   },
+   {
+    "role": "user",
+    "content": "Medium"
+   },
+   {
+    "role": "assistant",
+    "content": "Oops, I think I missed that! You said \"Medium\" for length earlier. Let me confirm — is that correct? [chips: Yes | No]"
+   },
+   {
+    "role": "user",
+    "content": "Medium"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, you're getting a Medium length with Baby Pink, 3D Flowers, and Square shape! 🌸 What time would you like your appointment?"
+   },
+   {
+    "role": "user",
+    "content": "Medium"
+   },
+   {
+    "role": "assistant",
+    "content": "Oops, I think I missed that! You said \"Medium\" for length earlier. Let me confirm — is that correct? [chips: Yes | No]"
+   },
+   {
+    "role": "user",
+    "content": "Medium"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, you're getting a Medium length with Baby Pink, 3D Flowers, and Square shape! 🌸 What time would you like your appointment?"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Mercy"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Mercy, so nice to meet you! 😊 What's your phone number?"
+   },
+   {
+    "role": "user",
+    "content": "07039876543"
+   },
+   {
+    "role": "assistant",
+    "content": "Mercy, thanks for the number! 📱 What service would you like? [chips: Gel Hands | Gel Toes | Acrylic Full | Gel-X | BIAB | Press-On | Refill | Manicure | Pedicure | Removal]"
+   },
+   {
+    "role": "user",
+    "content": "gel polish on my fingers, marble design, white and gold"
+   },
+   {
+    "role": "assistant",
+    "content": "Mercy, gel polish on your fingers with a marble design in white and gold sounds beautiful! 💫 What's your preferred length? [chips: Natural | Short | Medium | Long | XL]"
+   },
+   {
+    "role": "user",
+    "content": "round shape abeg"
+   },
+   {
+    "role": "assistant",
+    "content": "Mercy, round shape is such a lovely choice! 💄 What time would you prefer for your appointment? [chips: Morning | Afternoon | Evening]"
+   },
+   {
+    "role": "user",
+    "content": "Round"
+   },
+   {
+    "role": "assistant",
+    "content": "Mercy, round shape is such a lovely choice! 💄 What time would you prefer for your appointment? [chips: Morning | Afternoon | Evening]"
+   },
+   {
+    "role": "user",
+    "content": "Round"
+   },
+   {
+    "role": "assistant",
+    "content": "Mercy, round shape is such a lovely choice! 💄 What time would you prefer for your appointment? [chips: Morning | Afternoon | Evening]"
+   },
+   {
+    "role": "user",
+    "content": "Round"
+   },
+   {
+    "role": "assistant",
+    "content": "Mercy, round shape is such a lovely choice! 💄 What time would you prefer for your appointment? [chips: Morning | Afternoon | Evening]"
+   },
+   {
+    "role": "user",
+    "content": "Round"
+   },
+   {
+    "role": "assistant",
+    "content": "Mercy, round shape is such a lovely choice! 💄 What time would you prefer for your appointment? [chips: Morning | Afternoon | Evening]"
+   },
+   {
+    "role": "user",
+    "content": "Round"
+   },
+   {
+    "role": "assistant",
+    "content": "Mercy, round shape is such a lovely choice! 💄 What time would you prefer for your appointment? [chips: Morning | Afternoon | Evening]"
+   },
+   {
+    "role": "user",
+    "content": "Round"
+   },
+   {
+    "role": "assistant",
+    "content": "Mercy, round shape is such a lovely choice! 💄 What time would you prefer for your appointment? [chips: Morning | Afternoon | Evening]"
+   },
+   {
+    "role": "user",
+    "content": "Round"
+   },
+   {
+    "role": "assistant",
+    "content": "Mercy, round shape is such a lovely choice! 💄 What time would you prefer for your appointment? [chips: Morning | Afternoon | Evening]"
+   },
+   {
+    "role": "user",
+    "content": "Round"
+   },
+   {
+    "role": "assistant",
+    "content": "Mercy, round shape is such a lovely choice! 💄 What time would you prefer for your appointment? [chips: Morning | Afternoon | Evening]"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "I'm Rukky"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Rukky! 😊 What's your phone number so I can send you a confirmation?"
+   },
+   {
+    "role": "user",
+    "content": "08061230987"
+   },
+   {
+    "role": "assistant",
+    "content": "Great! 🎉 What service would you like today?  \n[chips: gel_hands | gel_toes | acrylic_full | gelx | biab | press_on | refill | manicure | pedicure | removal]"
+   },
+   {
+    "role": "user",
+    "content": "gelx"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect choice! 💎 What style would you like for your Gel-X?  \n[chips: plain | french | ombre | chrome | cat_eye | marble | nail_art | stones | flowers_3d]"
+   },
+   {
+    "role": "user",
+    "content": "ombre"
+   },
+   {
+    "role": "assistant",
+    "content": "Lovely! 🌈 What colour would you like for your Ombre Gel-X?  \n[chips: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "nude and baby pink"
+   },
+   {
+    "role": "assistant",
+    "content": "Sweet! 🌸 What length would you like for your Gel-X?  \n[chips: natural | short | medium | long | xl]"
+   },
+   {
+    "role": "user",
+    "content": "XL"
+   },
+   {
+    "role": "assistant",
+    "content": "Oh wow, that's a bold choice! 💃 What shape would you like for your nails?  \n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "coffin"
+   },
+   {
+    "role": "assistant",
+    "content": "Coffin nails, love! 💅 Any allergies or notes I should know about?"
+   },
+   {
+    "role": "user",
+    "content": "I dey allergic to latex"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it, Rukky — no latex for you! 🌸 What time would you like to book?"
+   },
+   {
+    "role": "user",
+    "content": "Right now (walk-in)"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, Rukky! 🌟 Let me confirm your booking:\n\n- **Service:** Gel-X Extensions  \n- **Style:** Ombre  \n- **Colours:** Nude, Baby Pink  \n- **Length:** XL  \n- **Shape:** Coffin  \n- **Allergies:** Latex  \n- **Time:** Walk-in  \n\nTotal: ₦20,000 (Gel-X) + ₦4,000 (XL length) = **₦24,000**\n\n<order>{\"name\": \"Rukky\", \"phone\": \"08061230987\", \"services\": [\"gelx\"], \"style\": \"ombre\", \"colours\": [\"Nude\", \"Baby pink\"], \"length\": \"xl\", \"shape\": \"Coffin\", \"notes\": \"Allergic to latex\", \"time\": \"Walk-in\", \"total\": 24000}</order>  \n\nSee you soon, love! 💅✨"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Precious"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Precious! 😊 What's your phone number?"
+   },
+   {
+    "role": "user",
+    "content": "0814 000 1122"
+   },
+   {
+    "role": "assistant",
+    "content": "Great, Precious! 🌟 What service would you like? [chips: Gel Hands | Gel Toes | Acrylic Full | Gel-X | BIAB | Press-On | Refill | Manicure | Pedicure | Removal]"
+   },
+   {
+    "role": "user",
+    "content": "full set acrylic with hand painted design, short squoval, hot pink"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Precious, that sounds beautiful! 💖 You're getting an Acrylic Full Set with hand-painted design. What's your preferred time? [chips: Morning | Afternoon | Evening]"
+   },
+   {
+    "role": "user",
+    "content": "Hand-painted nail art"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Precious, that's so pretty! 💖 You're getting an Acrylic Full Set with hand-painted nail art. What's your preferred time? [chips: Morning | Afternoon | Evening]"
+   },
+   {
+    "role": "user",
+    "content": "Tomorrow, morning"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Precious, that's perfect! 🌞 You're booked for tomorrow morning for an Acrylic Full Set with hand-painted nail art. What colour would you like? [chips: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "Hot pink"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Precious, hot pink is so chic! 💄 You're getting an Acrylic Full Set with hand-painted nail art in hot pink. What shape would you like? [chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Squoval"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Precious, squoval is such a lovely shape! 💕 You're getting an Acrylic Full Set with hand-painted nail art in hot pink, with a squoval shape. What length would you like? [chips: Natural | Short | Medium | Long | XL]"
+   },
+   {
+    "role": "user",
+    "content": "Short"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Precious, short is so cute! 💕 You're getting an Acrylic Full Set with hand-painted nail art in hot pink, with a squoval shape, and short length. Do you have any allergies or notes? [chips: None | Allergies | Special request]"
+   },
+   {
+    "role": "user",
+    "content": "Short"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Precious, short is so cute! 💕 You're getting an Acrylic Full Set with hand-painted nail art in hot pink, with a squoval shape, and short length. Do you have any allergies or notes? [chips: None | Allergies | Special request]"
+   },
+   {
+    "role": "user",
+    "content": "Short"
+   },
+   {
+    "role": "assistant",
+    "content": "Oops, I think I repeated that! 😊 Let me check again. You're getting an Acrylic Full Set with hand-painted nail art in hot pink, with a squoval shape, and short length. Do you have any allergies or notes? [chips: None | Allergies | Special request]"
+   },
+   {
+    "role": "user",
+    "content": "Short"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Precious, I think you meant to say \"None\"! 😊 Let me confirm: you're getting an Acrylic Full Set with hand-painted nail art in hot pink, with a squoval shape, and short length. No allergies or notes? [chips: Yes | No]"
+   },
+   {
+    "role": "user",
+    "content": "Short"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Precious, I think you meant to say \"No\"! 😊 So, no allergies or notes. Let me just confirm everything:  \n- Name: Precious  \n- Phone: 0814 000 1122  \n- Service: Acrylic Full Set (extension)  \n- Style: Hand-painted nail art (+₦5,000)  \n- Colour: Hot pink  \n- Length: Short (no surcharge)  \n- Shape: Squoval  \n- Notes: None  \n\nTotal: ₦18,000 (Acrylic Full Set) + ₦5,000 (nail art) = **₦23,000**  \n\n<order>{\"name\": \"Precious\", \"phone\": \"0814 000 1122\", \"services\": [\"acrylic_full\"], \"style\": \"nail_art\", \"colours\": [\"Hot pink\"], \"length\": \"short\", \"shape\": \"Squoval\", \"notes\": \"None\", \"time\": \"Tomorrow, morning\", \"total\": 23000}</order>  \n\nYou're all set, Precious! 💄 Let me know if you need anything else. 😊"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "na Simi"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Simi! 😊 What's your phone number?"
+   },
+   {
+    "role": "user",
+    "content": "07087776655"
+   },
+   {
+    "role": "assistant",
+    "content": "Great! 🌟 What service would you like? [chips: gel_hands | gel_toes | acrylic_full | gelx | biab | press_on | refill | manicure | pedicure | removal]"
+   },
+   {
+    "role": "user",
+    "content": "spa pedicure and normal manicure"
+   },
+   {
+    "role": "assistant",
+    "content": "Lovely choice! 🌸 For the spa pedicure, what style would you like? [chips: plain | french | ombre | chrome | cat_eye | marble | nail_art | stones | flowers_3d]"
+   },
+   {
+    "role": "user",
+    "content": "Plain / solid colour"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect! 🌸 What colours would you like for your manicure and pedicure? [chips: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "Coral"
+   },
+   {
+    "role": "assistant",
+    "content": "Coral is such a lovely choice! 🌸 What length would you like for your manicure and pedicure? [chips: natural | short | medium | long | xl]"
+   },
+   {
+    "role": "user",
+    "content": "Short"
+   },
+   {
+    "role": "assistant",
+    "content": "Short is so chic! 💅 What shape would you like for your nails? [chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Oval"
+   },
+   {
+    "role": "assistant",
+    "content": "Oval is so elegant! 💄 Do you have any allergies or notes for us?"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "Thanks, Simi! 🌟 What time would you like your appointment?"
+   },
+   {
+    "role": "user",
+    "content": "Today, evening"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect! 🌙 Let me just confirm your booking.  \n\n**Name:** Simi  \n**Phone:** 07087776655  \n**Services:** pedicure, manicure  \n**Style:** plain  \n**Colours:** Coral  \n**Length:** short  \n**Shape:** Oval  \n**Notes:** No allergies  \n**Time:** Today, evening  \n\nTotal: ₦14,000  \n\n<order>{\"name\": \"Simi\", \"phone\": \"07087776655\", \"services\": [\"manicure\", \"pedicure\"], \"style\": \"plain\", \"colours\": [\"Coral\"], \"length\": \"short\", \"shape\": \"Oval\", \"notes\": \"No allergies\", \"time\": \"Today, evening\", \"total\": 14000}</order>  \n\nYou're all set, Simi! 💅 We’ll see you soon! 🌟"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Joy Eze"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, Joy Eze, so nice to meet you! 😊 What's your phone number?"
+   },
+   {
+    "role": "user",
+    "content": "08187654321"
+   },
+   {
+    "role": "assistant",
+    "content": "Great! 08187654321 is your number. What service would you like? [chips: Gel Hands | Gel Toes | Acrylic Full | Gel-X | BIAB | Press-On | Refill | Manicure | Pedicure | Removal]"
+   },
+   {
+    "role": "user",
+    "content": "gel polish"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, gel polish, that's so pretty! 😊 Are you doing hands or toes? [chips: Hands | Toes]"
+   },
+   {
+    "role": "user",
+    "content": "plain"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, plain is so elegant! 😊 What colour would you like? [chips: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "emerald green"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, emerald green is so stunning! 😊 What length would you like? [chips: Natural | Short | Medium | Long | XL]"
+   },
+   {
+    "role": "user",
+    "content": "almond"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, almond shape is so chic! 😊 What time would you like your appointment? [chips: 10am | 11am | 12pm | 1pm | 2pm | 3pm]"
+   },
+   {
+    "role": "user",
+    "content": "pls no cutting my cuticles"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, no cutting cuticles, got it! 😊 Is there anything else you'd like to add or note? [chips: No | Yes]"
+   },
+   {
+    "role": "user",
+    "content": "okay"
+   },
+   {
+    "role": "assistant",
+    "content": "Aww, okay, no notes then. 😊 Your booking is all set!  \n\n<order>{\"name\": \"Joy Eze\", \"phone\": \"08187654321\", \"services\": [\"gel_hands\"], \"style\": \"plain\", \"colours\": [\"Emerald green\"], \"length\": \"natural\", \"shape\": \"Almond\", \"notes\": \"No cutting cuticles\", \"time\": \"3pm\", \"total\": 8000}</order>  \n\nYou're all booked for 3pm with gel polish on hands in emerald green, plain style, almond shape, no cuticle cutting. 💅 Let me know if you need anything else! 😊"
+   }
+  ]
+ ],
+ "fine_tuned": [
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Amarachi"
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome Amara! What number can we reach you on?"
+   },
+   {
+    "role": "user",
+    "content": "07062223344"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it! What are we doing today? You can pick more than one.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "abeg I wan do acrylic, long coffin, chrome. wine colour"
+   },
+   {
+    "role": "assistant",
+    "content": "Love it. Any allergies, sensitive skin or anything Sugar should know?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "When should we expect you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Today, evening"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, Amara! Here's your booking:\n• Acrylic Full Set: ₦18,000\n• Chrome / glazed: +₦3,500\n• Long length: +₦2,000\nColours: Wine · Shape: Coffin · Length: Long\nNotes: None · Time: Today, evening\nTotal: ₦23,500\nTap Pay to lock your spot in Sugar's queue. 💅\n<order>{\"name\": \"Amarachi\", \"phone\": \"07062223344\", \"services\": [\"acrylic_full\"], \"style\": \"chrome\", \"colours\": [\"Wine\"], \"length\": \"long\", \"shape\": \"Coffin\", \"notes\": \"None\", \"time\": \"Today, evening\", \"total\": 23500}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "my name na Funmi Adeyemi"
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome Funmi! What number can we reach you on?"
+   },
+   {
+    "role": "user",
+    "content": "o8o3 is wrong sorry 08034445566"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it! What are we doing today? You can pick more than one.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "i want pedicure and gel for toes"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice choice! How do you want them styled?\n[chips: Plain / solid colour | Classic French tips | Ombre / baby boomer | Chrome / glazed | Cat-eye | Marble | Hand-painted nail art | Rhinestones & charms | 3D flowers]"
+   },
+   {
+    "role": "user",
+    "content": "Plain / solid colour"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "Red"
+   },
+   {
+    "role": "assistant",
+    "content": "Any allergies, sensitive skin or anything Sugar should know?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "When should we expect you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Right now (walk-in)"
+   },
+   {
+    "role": "assistant",
+    "content": "All set, Funmi. Please check:\n• Spa Pedicure: ₦9,000\n• Gel Polish (toes): ₦7,000\nColours: Red\nNotes: None · Time: Right now (walk-in)\nTotal: ₦16,000\nOnce you pay, you're on Sugar's list sharp sharp!\n<order>{\"name\": \"Funmi Adeyemi\", \"phone\": \"08034445566\", \"services\": [\"pedicure\", \"gel_toes\"], \"style\": \"plain\", \"colours\": [\"Red\"], \"length\": \"natural\", \"shape\": \"n/a\", \"notes\": \"None\", \"time\": \"Right now (walk-in)\", \"total\": 16000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Ify"
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome Ify! What number can we reach you on?"
+   },
+   {
+    "role": "user",
+    "content": "+234 816 777 8899"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it! What are we doing today? You can pick more than one.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "Remove my old acrylic first then do gel-x extensions"
+   },
+   {
+    "role": "assistant",
+    "content": "Sweet! Which style or design are you feeling?\n[chips: Plain / solid colour | Classic French tips | Ombre / baby boomer | Chrome / glazed | Cat-eye | Marble | Hand-painted nail art | Rhinestones & charms | 3D flowers]"
+   },
+   {
+    "role": "user",
+    "content": "french tip"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "milky white"
+   },
+   {
+    "role": "assistant",
+    "content": "How long do you want them? Long adds ₦2,000 and extra long adds ₦4,000.\n[chips: Short | Medium | Long | Extra long]"
+   },
+   {
+    "role": "user",
+    "content": "Medium"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Almond"
+   },
+   {
+    "role": "assistant",
+    "content": "Any allergies, sensitive skin or anything Sugar should know?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "When should we expect you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Tomorrow, morning"
+   },
+   {
+    "role": "assistant",
+    "content": "All set, Ify. Please check:\n• Removal (gel/acrylic): ₦3,000\n• Gel-X Extensions: ₦20,000\n• Classic French tips: +₦3,000\nColours: Milky white · Shape: Almond · Length: Medium\nNotes: None · Time: Tomorrow, morning\nTotal: ₦26,000\nTap Pay to lock your spot in Sugar's queue. 💅\n<order>{\"name\": \"Ify\", \"phone\": \"08167778899\", \"services\": [\"removal\", \"gelx\"], \"style\": \"french\", \"colours\": [\"Milky white\"], \"length\": \"medium\", \"shape\": \"Almond\", \"notes\": \"None\", \"time\": \"Tomorrow, morning\", \"total\": 26000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Hello good afternoon"
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome o! Wetin be your name?"
+   },
+   {
+    "role": "user",
+    "content": "Zee"
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome Zee! What number can we reach you on?"
+   },
+   {
+    "role": "user",
+    "content": "09051112233"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it! What are we doing today? You can pick more than one.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "BIAB overlay pls, I like that cat eye thing"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "gold"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Oval"
+   },
+   {
+    "role": "assistant",
+    "content": "Any allergies, sensitive skin or anything Sugar should know?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "Sensitive skin"
+   },
+   {
+    "role": "assistant",
+    "content": "When should we expect you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Today, afternoon"
+   },
+   {
+    "role": "assistant",
+    "content": "All set, Zee. Please check:\n• BIAB Overlay: ₦14,000\n• Cat-eye: +₦3,500\nColours: Gold · Shape: Oval\nNotes: Sensitive skin · Time: Today, afternoon\nTotal: ₦17,500\nTap Pay to lock your spot in Sugar's queue. 💅\n<order>{\"name\": \"Zee\", \"phone\": \"09051112233\", \"services\": [\"biab\"], \"style\": \"cat_eye\", \"colours\": [\"Gold\"], \"length\": \"natural\", \"shape\": \"Oval\", \"notes\": \"Sensitive skin\", \"time\": \"Today, afternoon\", \"total\": 17500}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Tolani"
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome Tolani! What number can we reach you on?"
+   },
+   {
+    "role": "user",
+    "content": "0701 234 5678"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it! What are we doing today? You can pick more than one.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "press on nails, extra long stiletto, with stones and bling"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "black and silver"
+   },
+   {
+    "role": "assistant",
+    "content": "Before I forget, any allergies or special notes for Sugar?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "When should we expect you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Tomorrow, afternoon"
+   },
+   {
+    "role": "assistant",
+    "content": "All set, Tolani. Please check:\n• Custom Press-Ons: ₦12,000\n• Rhinestones & charms: +₦3,000\n• Extra long length: +₦4,000\nColours: Black, Silver · Shape: Stiletto · Length: Extra long\nNotes: None · Time: Tomorrow, afternoon\nTotal: ₦19,000\nOnce you pay, you're on Sugar's list sharp sharp!\n<order>{\"name\": \"Tolani\", \"phone\": \"07012345678\", \"services\": [\"press_on\"], \"style\": \"stones\", \"colours\": [\"Black\", \"Silver\"], \"length\": \"xl\", \"shape\": \"Stiletto\", \"notes\": \"None\", \"time\": \"Tomorrow, afternoon\", \"total\": 19000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "call me Kiki"
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome Kiki! What number can we reach you on?"
+   },
+   {
+    "role": "user",
+    "content": "08129990001"
+   },
+   {
+    "role": "assistant",
+    "content": "Thank you Kiki! What would you like done today?\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "just manicure today"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice choice! How do you want them styled?\n[chips: Plain / solid colour | Classic French tips | Ombre / baby boomer | Chrome / glazed | Cat-eye | Marble | Hand-painted nail art | Rhinestones & charms | 3D flowers]"
+   },
+   {
+    "role": "user",
+    "content": "my left thumb nail broke o"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "Nude"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Square"
+   },
+   {
+    "role": "assistant",
+    "content": "Any allergies, sensitive skin or anything Sugar should know?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "Broken nail on left thumb"
+   },
+   {
+    "role": "assistant",
+    "content": "When should we expect you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Right now (walk-in)"
+   },
+   {
+    "role": "assistant",
+    "content": "All set, Kiki. Please check:\n• Classic Manicure: ₦5,000\nColours: Nude · Shape: Square\nNotes: Broken nail on left thumb · Time: Right now (walk-in)\nTotal: ₦5,000\nTap Pay to lock your spot in Sugar's queue. 💅\n<order>{\"name\": \"Kiki\", \"phone\": \"08129990001\", \"services\": [\"manicure\"], \"style\": \"plain\", \"colours\": [\"Nude\"], \"length\": \"natural\", \"shape\": \"Square\", \"notes\": \"Broken nail on left thumb\", \"time\": \"Right now (walk-in)\", \"total\": 5000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Hauwa Musa"
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome Hauwa! What number can we reach you on?"
+   },
+   {
+    "role": "user",
+    "content": "08025556677"
+   },
+   {
+    "role": "assistant",
+    "content": "Thank you Hauwa! What would you like done today?\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "acrylic refill + 3d flowers"
+   },
+   {
+    "role": "assistant",
+    "content": "Sweet! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "baby pink"
+   },
+   {
+    "role": "assistant",
+    "content": "What length? (Long is +₦2,000, extra long +₦4,000)\n[chips: Short | Medium | Long | Extra long]"
+   },
+   {
+    "role": "user",
+    "content": "medium"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "square"
+   },
+   {
+    "role": "assistant",
+    "content": "Any allergies, sensitive skin or anything Sugar should know?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "When should we expect you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Today, evening"
+   },
+   {
+    "role": "assistant",
+    "content": "All set, Hauwa. Please check:\n• Acrylic Refill: ₦12,000\n• 3D flowers: +₦5,000\nColours: Baby pink · Shape: Square · Length: Medium\nNotes: None · Time: Today, evening\nTotal: ₦17,000\nOnce you pay, you're on Sugar's list sharp sharp!\n<order>{\"name\": \"Hauwa Musa\", \"phone\": \"08025556677\", \"services\": [\"refill\"], \"style\": \"flowers_3d\", \"colours\": [\"Baby pink\"], \"length\": \"medium\", \"shape\": \"Square\", \"notes\": \"None\", \"time\": \"Today, evening\", \"total\": 17000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Mercy"
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome Mercy! What number can we reach you on?"
+   },
+   {
+    "role": "user",
+    "content": "07039876543"
+   },
+   {
+    "role": "assistant",
+    "content": "Thank you Mercy! What would you like done today?\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "gel polish on my fingers, marble design, white and gold"
+   },
+   {
+    "role": "assistant",
+    "content": "Love it. What shape should Sugar file them?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "round shape abeg"
+   },
+   {
+    "role": "assistant",
+    "content": "Any allergies, sensitive skin or anything Sugar should know?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "When should we expect you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Today, afternoon"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, Mercy! Here's your booking:\n• Gel Polish (hands): ₦8,000\n• Marble: +₦4,000\nColours: Milky white, Gold · Shape: Round\nNotes: None · Time: Today, afternoon\nTotal: ₦12,000\nPay below and I'll add you to the queue.\n<order>{\"name\": \"Mercy\", \"phone\": \"07039876543\", \"services\": [\"gel_hands\"], \"style\": \"marble\", \"colours\": [\"Milky white\", \"Gold\"], \"length\": \"natural\", \"shape\": \"Round\", \"notes\": \"None\", \"time\": \"Today, afternoon\", \"total\": 12000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "I'm Rukky"
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome Rukky! What number can we reach you on?"
+   },
+   {
+    "role": "user",
+    "content": "08061230987"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it! What are we doing today? You can pick more than one.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "gelx"
+   },
+   {
+    "role": "assistant",
+    "content": "Sweet! Which style or design are you feeling?\n[chips: Plain / solid colour | Classic French tips | Ombre / baby boomer | Chrome / glazed | Cat-eye | Marble | Hand-painted nail art | Rhinestones & charms | 3D flowers]"
+   },
+   {
+    "role": "user",
+    "content": "ombre"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "nude and baby pink"
+   },
+   {
+    "role": "assistant",
+    "content": "How long do you want them? Long adds ₦2,000 and extra long adds ₦4,000.\n[chips: Short | Medium | Long | Extra long]"
+   },
+   {
+    "role": "user",
+    "content": "XL"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "coffin"
+   },
+   {
+    "role": "assistant",
+    "content": "Any allergies, sensitive skin or anything Sugar should know?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "I dey allergic to latex"
+   },
+   {
+    "role": "assistant",
+    "content": "When should we expect you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Right now (walk-in)"
+   },
+   {
+    "role": "assistant",
+    "content": "All set, Rukky. Please check:\n• Gel-X Extensions: ₦20,000\n• Ombre / baby boomer: +₦4,000\n• Extra long length: +₦4,000\nColours: Nude, Baby pink · Shape: Coffin · Length: Extra long\nNotes: Allergic to latex gloves · Time: Right now (walk-in)\nTotal: ₦28,000\nOnce you pay, you're on Sugar's list sharp sharp!\n<order>{\"name\": \"Rukky\", \"phone\": \"08061230987\", \"services\": [\"gelx\"], \"style\": \"ombre\", \"colours\": [\"Nude\", \"Baby pink\"], \"length\": \"xl\", \"shape\": \"Coffin\", \"notes\": \"Allergic to latex gloves\", \"time\": \"Right now (walk-in)\", \"total\": 28000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Precious"
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome Precious! What number can we reach you on?"
+   },
+   {
+    "role": "user",
+    "content": "0814 000 1122"
+   },
+   {
+    "role": "assistant",
+    "content": "Thank you Precious! What would you like done today?\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "full set acrylic with hand painted design, short squoval, hot pink"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "Hot pink"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Squoval"
+   },
+   {
+    "role": "assistant",
+    "content": "Before I forget, any allergies or special notes for Sugar?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "When should we expect you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Tomorrow, morning"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, Precious! Here's your booking:\n• Acrylic Full Set: ₦18,000\n• Hand-painted nail art: +₦5,000\nColours: Hot pink · Shape: Squoval · Length: Short\nNotes: None · Time: Tomorrow, morning\nTotal: ₦23,000\nTap Pay to lock your spot in Sugar's queue. 💅\n<order>{\"name\": \"Precious\", \"phone\": \"08140001122\", \"services\": [\"acrylic_full\"], \"style\": \"nail_art\", \"colours\": [\"Hot pink\"], \"length\": \"short\", \"shape\": \"Squoval\", \"notes\": \"None\", \"time\": \"Tomorrow, morning\", \"total\": 23000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "na Simi"
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome Simi! What number can we reach you on?"
+   },
+   {
+    "role": "user",
+    "content": "07087776655"
+   },
+   {
+    "role": "assistant",
+    "content": "Got it! What are we doing today? You can pick more than one.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "spa pedicure and normal manicure"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "Coral"
+   },
+   {
+    "role": "assistant",
+    "content": "Any allergies, sensitive skin or anything Sugar should know?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "When should we expect you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Today, evening"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, Simi! Here's your booking:\n• Spa Pedicure: ₦9,000\n• Classic Manicure: ₦5,000\nColours: Coral\nNotes: None · Time: Today, evening\nTotal: ₦14,000\nPay below and I'll add you to the queue.\n<order>{\"name\": \"Simi\", \"phone\": \"07087776655\", \"services\": [\"pedicure\", \"manicure\"], \"style\": \"plain\", \"colours\": [\"Coral\"], \"length\": \"natural\", \"shape\": \"n/a\", \"notes\": \"None\", \"time\": \"Today, evening\", \"total\": 14000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Joy Eze"
+   },
+   {
+    "role": "assistant",
+    "content": "Welcome Joy! What number can we reach you on?"
+   },
+   {
+    "role": "user",
+    "content": "08187654321"
+   },
+   {
+    "role": "assistant",
+    "content": "Thank you Joy! What would you like done today?\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "gel polish"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice choice! How do you want them styled?\n[chips: Plain / solid colour | Classic French tips | Ombre / baby boomer | Chrome / glazed | Cat-eye | Marble | Hand-painted nail art | Rhinestones & charms | 3D flowers]"
+   },
+   {
+    "role": "user",
+    "content": "plain"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "emerald green"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "almond"
+   },
+   {
+    "role": "assistant",
+    "content": "Any allergies, sensitive skin or anything Sugar should know?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "pls no cutting my cuticles"
+   },
+   {
+    "role": "assistant",
+    "content": "When should we expect you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Today, afternoon"
+   },
+   {
+    "role": "assistant",
+    "content": "All set, Joy. Please check:\n• Gel Polish (hands): ₦8,000\nColours: Emerald green · Shape: Almond\nNotes: Prefers no cutting of cuticles · Time: Today, afternoon\nTotal: ₦8,000\nTap Pay to lock your spot in Sugar's queue. 💅\n<order>{\"name\": \"Joy Eze\", \"phone\": \"08187654321\", \"services\": [\"gel_hands\"], \"style\": \"plain\", \"colours\": [\"Emerald green\"], \"length\": \"natural\", \"shape\": \"Almond\", \"notes\": \"Prefers no cutting of cuticles\", \"time\": \"Today, afternoon\", \"total\": 8000}</order>"
+   }
+  ]
+ ],
+ "rule_based_fallback": [
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Amarachi"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice to meet you, Amarachi! 😊 What's your phone number? Sugar will text you when it's your turn."
+   },
+   {
+    "role": "user",
+    "content": "07062223344"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect. Which service do you want? Pick as many as you like.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "abeg I wan do acrylic, long coffin, chrome. wine colour"
+   },
+   {
+    "role": "assistant",
+    "content": "Anything Sugar should know? Allergies, broken nail, anything at all.\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "Last one: what time works for you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Today, evening"
+   },
+   {
+    "role": "assistant",
+    "content": "Lovely! See your booking, Amarachi:\n• Acrylic Full Set: ₦18,000\n• Chrome / glazed: +₦3,500\n• Long length: +₦2,000\nColours: Wine · Shape: Coffin · Length: Long\nNotes: None · Time: Today, evening\nTotal: ₦23,500\nOnce you pay, you're on Sugar's list sharp sharp!\n<order>{\"name\": \"Amarachi\", \"phone\": \"07062223344\", \"services\": [\"acrylic_full\"], \"style\": \"chrome\", \"colours\": [\"Wine\"], \"length\": \"long\", \"shape\": \"Coffin\", \"notes\": \"None\", \"time\": \"Today, evening\", \"total\": 23500}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "my name na Funmi Adeyemi"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice to meet you, Funmi! 😊 What's your phone number? Sugar will text you when it's your turn."
+   },
+   {
+    "role": "user",
+    "content": "o8o3 is wrong sorry 08034445566"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect. Which service do you want? Pick as many as you like.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "i want pedicure and gel for toes"
+   },
+   {
+    "role": "assistant",
+    "content": "E go fine well well! Any design, or plain colour?\n[chips: Plain / solid colour | Classic French tips | Ombre / baby boomer | Chrome / glazed | Cat-eye | Marble | Hand-painted nail art | Rhinestones & charms | 3D flowers]"
+   },
+   {
+    "role": "user",
+    "content": "Plain / solid colour"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "Red"
+   },
+   {
+    "role": "assistant",
+    "content": "Before I forget, any allergies or special notes for Sugar?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "Last one: what time works for you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Right now (walk-in)"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, Funmi! Here's your booking:\n• Spa Pedicure: ₦9,000\n• Gel Polish (toes): ₦7,000\nColours: Red\nNotes: None · Time: Right now (walk-in)\nTotal: ₦16,000\nPay below and I'll add you to the queue.\n<order>{\"name\": \"Funmi Adeyemi\", \"phone\": \"08034445566\", \"services\": [\"pedicure\", \"gel_toes\"], \"style\": \"plain\", \"colours\": [\"Red\"], \"length\": \"natural\", \"shape\": \"n/a\", \"notes\": \"None\", \"time\": \"Right now (walk-in)\", \"total\": 16000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Ify"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice to meet you, Ify! 😊 What's your phone number? Sugar will text you when it's your turn."
+   },
+   {
+    "role": "user",
+    "content": "+234 816 777 8899"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect. Which service do you want? Pick as many as you like.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "Remove my old acrylic first then do gel-x extensions"
+   },
+   {
+    "role": "assistant",
+    "content": "E go fine well well! Any design, or plain colour?\n[chips: Plain / solid colour | Classic French tips | Ombre / baby boomer | Chrome / glazed | Cat-eye | Marble | Hand-painted nail art | Rhinestones & charms | 3D flowers]"
+   },
+   {
+    "role": "user",
+    "content": "french tip"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "milky white"
+   },
+   {
+    "role": "assistant",
+    "content": "What length? (Long is +₦2,000, extra long +₦4,000)\n[chips: Short | Medium | Long | Extra long]"
+   },
+   {
+    "role": "user",
+    "content": "Medium"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Almond"
+   },
+   {
+    "role": "assistant",
+    "content": "Any allergies, sensitive skin or anything Sugar should know?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "Almost done! When do you want to come in?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Tomorrow, morning"
+   },
+   {
+    "role": "assistant",
+    "content": "Lovely! See your booking, Ify:\n• Gel-X Extensions: ₦20,000\n• Acrylic Full Set: ₦18,000\n• Removal (gel/acrylic): ₦3,000\n• Classic French tips: +₦3,000\nColours: Milky white · Shape: Almond · Length: Medium\nNotes: None · Time: Tomorrow, morning\nTotal: ₦44,000\nOnce you pay, you're on Sugar's list sharp sharp!\n<order>{\"name\": \"Ify\", \"phone\": \"+2348167778899\", \"services\": [\"gelx\", \"acrylic_full\", \"removal\"], \"style\": \"french\", \"colours\": [\"Milky white\"], \"length\": \"medium\", \"shape\": \"Almond\", \"notes\": \"None\", \"time\": \"Tomorrow, morning\", \"total\": 44000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Hello good afternoon"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice to meet you, Hello! 😊 What's your phone number? Sugar will text you when it's your turn."
+   },
+   {
+    "role": "user",
+    "content": "Zee"
+   },
+   {
+    "role": "assistant",
+    "content": "I think that number is missing some digits. Can you type it again? e.g. 0812 345 6789"
+   },
+   {
+    "role": "user",
+    "content": "09051112233"
+   },
+   {
+    "role": "assistant",
+    "content": "Thank you Hello! What would you like done today?\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "BIAB overlay pls, I like that cat eye thing"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "gold"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Oval"
+   },
+   {
+    "role": "assistant",
+    "content": "Before I forget, any allergies or special notes for Sugar?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "Sensitive skin"
+   },
+   {
+    "role": "assistant",
+    "content": "Almost done! When do you want to come in?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Today, afternoon"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, Hello! Here's your booking:\n• BIAB Overlay: ₦14,000\n• Cat-eye: +₦3,500\nColours: Gold · Shape: Oval\nNotes: Sensitive skin · Time: Today, afternoon\nTotal: ₦17,500\nTap Pay to lock your spot in Sugar's queue. 💅\n<order>{\"name\": \"Hello good afternoon\", \"phone\": \"09051112233\", \"services\": [\"biab\"], \"style\": \"cat_eye\", \"colours\": [\"Gold\"], \"length\": \"natural\", \"shape\": \"Oval\", \"notes\": \"Sensitive skin\", \"time\": \"Today, afternoon\", \"total\": 17500}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Tolani"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice to meet you, Tolani! 😊 What's your phone number? Sugar will text you when it's your turn."
+   },
+   {
+    "role": "user",
+    "content": "0701 234 5678"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect. Which service do you want? Pick as many as you like.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "press on nails, extra long stiletto, with stones and bling"
+   },
+   {
+    "role": "assistant",
+    "content": "Beautiful. Pick your colour(s):\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "black and silver"
+   },
+   {
+    "role": "assistant",
+    "content": "Before I forget, any allergies or special notes for Sugar?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "Last one: what time works for you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Tomorrow, afternoon"
+   },
+   {
+    "role": "assistant",
+    "content": "Lovely! See your booking, Tolani:\n• Custom Press-Ons: ₦12,000\n• Rhinestones & charms: +₦3,000\n• Extra long length: +₦4,000\nColours: Black, Silver · Shape: Stiletto · Length: Extra long\nNotes: None · Time: Tomorrow, afternoon\nTotal: ₦19,000\nOnce you pay, you're on Sugar's list sharp sharp!\n<order>{\"name\": \"Tolani\", \"phone\": \"07012345678\", \"services\": [\"press_on\"], \"style\": \"stones\", \"colours\": [\"Black\", \"Silver\"], \"length\": \"xl\", \"shape\": \"Stiletto\", \"notes\": \"None\", \"time\": \"Tomorrow, afternoon\", \"total\": 19000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "call me Kiki"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice to meet you, Kiki! 😊 What's your phone number? Sugar will text you when it's your turn."
+   },
+   {
+    "role": "user",
+    "content": "08129990001"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect. Which service do you want? Pick as many as you like.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "just manicure today"
+   },
+   {
+    "role": "assistant",
+    "content": "Beautiful. Pick your colour(s):\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "my left thumb nail broke o"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Square"
+   },
+   {
+    "role": "assistant",
+    "content": "Before I forget, any allergies or special notes for Sugar?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "Broken nail on left thumb"
+   },
+   {
+    "role": "assistant",
+    "content": "Last one: what time works for you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Right now (walk-in)"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, Kiki! Here's your booking:\n• Classic Manicure: ₦5,000\nColours: my left thumb nail broke o · Shape: Square\nNotes: Broken nail on left thumb · Time: Right now (walk-in)\nTotal: ₦5,000\nPay below and I'll add you to the queue.\n<order>{\"name\": \"Kiki\", \"phone\": \"08129990001\", \"services\": [\"manicure\"], \"style\": \"plain\", \"colours\": [\"my left thumb nail broke o\"], \"length\": \"natural\", \"shape\": \"Square\", \"notes\": \"Broken nail on left thumb\", \"time\": \"Right now (walk-in)\", \"total\": 5000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Hauwa Musa"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice to meet you, Hauwa! 😊 What's your phone number? Sugar will text you when it's your turn."
+   },
+   {
+    "role": "user",
+    "content": "08025556677"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect. Which service do you want? Pick as many as you like.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "acrylic refill + 3d flowers"
+   },
+   {
+    "role": "assistant",
+    "content": "Beautiful. Pick your colour(s):\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "baby pink"
+   },
+   {
+    "role": "assistant",
+    "content": "What length? (Long is +₦2,000, extra long +₦4,000)\n[chips: Short | Medium | Long | Extra long]"
+   },
+   {
+    "role": "user",
+    "content": "medium"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "square"
+   },
+   {
+    "role": "assistant",
+    "content": "Before I forget, any allergies or special notes for Sugar?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "Almost done! When do you want to come in?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Today, evening"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, Hauwa! Here's your booking:\n• Acrylic Refill: ₦12,000\n• Acrylic Full Set: ₦18,000\n• 3D flowers: +₦5,000\nColours: Baby pink · Shape: Square · Length: Medium\nNotes: None · Time: Today, evening\nTotal: ₦35,000\nTap Pay to lock your spot in Sugar's queue. 💅\n<order>{\"name\": \"Hauwa Musa\", \"phone\": \"08025556677\", \"services\": [\"refill\", \"acrylic_full\"], \"style\": \"flowers_3d\", \"colours\": [\"Baby pink\"], \"length\": \"medium\", \"shape\": \"Square\", \"notes\": \"None\", \"time\": \"Today, evening\", \"total\": 35000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Mercy"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice to meet you, Mercy! 😊 What's your phone number? Sugar will text you when it's your turn."
+   },
+   {
+    "role": "user",
+    "content": "07039876543"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect. Which service do you want? Pick as many as you like.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "gel polish on my fingers, marble design, white and gold"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice! What shape should Sugar file them?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "round shape abeg"
+   },
+   {
+    "role": "assistant",
+    "content": "Before I forget, any allergies or special notes for Sugar?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "Last one: what time works for you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Today, afternoon"
+   },
+   {
+    "role": "assistant",
+    "content": "Lovely! See your booking, Mercy:\n• Gel Polish (hands): ₦8,000\n• Marble: +₦4,000\nColours: Milky white, Gold · Shape: Round\nNotes: None · Time: Today, afternoon\nTotal: ₦12,000\nOnce you pay, you're on Sugar's list sharp sharp!\n<order>{\"name\": \"Mercy\", \"phone\": \"07039876543\", \"services\": [\"gel_hands\"], \"style\": \"marble\", \"colours\": [\"Milky white\", \"Gold\"], \"length\": \"natural\", \"shape\": \"Round\", \"notes\": \"None\", \"time\": \"Today, afternoon\", \"total\": 12000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "I'm Rukky"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice to meet you, Rukky! 😊 What's your phone number? Sugar will text you when it's your turn."
+   },
+   {
+    "role": "user",
+    "content": "08061230987"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect. Which service do you want? Pick as many as you like.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "gelx"
+   },
+   {
+    "role": "assistant",
+    "content": "E go fine well well! Any design, or plain colour?\n[chips: Plain / solid colour | Classic French tips | Ombre / baby boomer | Chrome / glazed | Cat-eye | Marble | Hand-painted nail art | Rhinestones & charms | 3D flowers]"
+   },
+   {
+    "role": "user",
+    "content": "ombre"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "nude and baby pink"
+   },
+   {
+    "role": "assistant",
+    "content": "What length? (Long is +₦2,000, extra long +₦4,000)\n[chips: Short | Medium | Long | Extra long]"
+   },
+   {
+    "role": "user",
+    "content": "XL"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "coffin"
+   },
+   {
+    "role": "assistant",
+    "content": "Any allergies, sensitive skin or anything Sugar should know?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "I dey allergic to latex"
+   },
+   {
+    "role": "assistant",
+    "content": "Almost done! When do you want to come in?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Right now (walk-in)"
+   },
+   {
+    "role": "assistant",
+    "content": "Lovely! See your booking, Rukky:\n• Gel-X Extensions: ₦20,000\n• Ombre / baby boomer: +₦4,000\n• Extra long length: +₦4,000\nColours: Nude, Baby pink · Shape: Coffin · Length: Extra long\nNotes: I dey allergic to latex · Time: Right now (walk-in)\nTotal: ₦28,000\nOnce you pay, you're on Sugar's list sharp sharp!\n<order>{\"name\": \"Rukky\", \"phone\": \"08061230987\", \"services\": [\"gelx\"], \"style\": \"ombre\", \"colours\": [\"Nude\", \"Baby pink\"], \"length\": \"xl\", \"shape\": \"Coffin\", \"notes\": \"I dey allergic to latex\", \"time\": \"Right now (walk-in)\", \"total\": 28000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Precious"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice to meet you, Precious! 😊 What's your phone number? Sugar will text you when it's your turn."
+   },
+   {
+    "role": "user",
+    "content": "0814 000 1122"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect. Which service do you want? Pick as many as you like.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "full set acrylic with hand painted design, short squoval, hot pink"
+   },
+   {
+    "role": "assistant",
+    "content": "Anything Sugar should know? Allergies, broken nail, anything at all.\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "Last one: what time works for you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Tomorrow, morning"
+   },
+   {
+    "role": "assistant",
+    "content": "Lovely! See your booking, Precious:\n• Acrylic Full Set: ₦18,000\n• Hand-painted nail art: +₦5,000\nColours: Hot pink · Shape: Squoval · Length: Short\nNotes: None · Time: Tomorrow, morning\nTotal: ₦23,000\nOnce you pay, you're on Sugar's list sharp sharp!\n<order>{\"name\": \"Precious\", \"phone\": \"08140001122\", \"services\": [\"acrylic_full\"], \"style\": \"nail_art\", \"colours\": [\"Hot pink\"], \"length\": \"short\", \"shape\": \"Squoval\", \"notes\": \"None\", \"time\": \"Tomorrow, morning\", \"total\": 23000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "na Simi"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice to meet you, Simi! 😊 What's your phone number? Sugar will text you when it's your turn."
+   },
+   {
+    "role": "user",
+    "content": "07087776655"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect. Which service do you want? Pick as many as you like.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "spa pedicure and normal manicure"
+   },
+   {
+    "role": "assistant",
+    "content": "Beautiful. Pick your colour(s):\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "Coral"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "Oval"
+   },
+   {
+    "role": "assistant",
+    "content": "Before I forget, any allergies or special notes for Sugar?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "No allergies"
+   },
+   {
+    "role": "assistant",
+    "content": "Last one: what time works for you?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Today, evening"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, Simi! Here's your booking:\n• Spa Pedicure: ₦9,000\n• Classic Manicure: ₦5,000\nColours: Coral · Shape: Oval\nNotes: None · Time: Today, evening\nTotal: ₦14,000\nPay below and I'll add you to the queue.\n<order>{\"name\": \"Simi\", \"phone\": \"07087776655\", \"services\": [\"pedicure\", \"manicure\"], \"style\": \"plain\", \"colours\": [\"Coral\"], \"length\": \"natural\", \"shape\": \"Oval\", \"notes\": \"None\", \"time\": \"Today, evening\", \"total\": 14000}</order>"
+   }
+  ],
+  [
+   {
+    "role": "assistant",
+    "content": "Hi love, welcome to Sugar Nails! 💅 Sugar is on a client right now, so I'll get you booked. What's your name?"
+   },
+   {
+    "role": "user",
+    "content": "Joy Eze"
+   },
+   {
+    "role": "assistant",
+    "content": "Nice to meet you, Joy! 😊 What's your phone number? Sugar will text you when it's your turn."
+   },
+   {
+    "role": "user",
+    "content": "08187654321"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect. Which service do you want? Pick as many as you like.\n[multi: Gel Polish (hands) | Acrylic Full Set | Gel-X Extensions | BIAB Overlay | Custom Press-Ons | Acrylic Refill | Classic Manicure | Spa Pedicure | Gel Polish (toes) | Removal (gel/acrylic)]"
+   },
+   {
+    "role": "user",
+    "content": "gel polish"
+   },
+   {
+    "role": "assistant",
+    "content": "E go fine well well! Any design, or plain colour?\n[chips: Plain / solid colour | Classic French tips | Ombre / baby boomer | Chrome / glazed | Cat-eye | Marble | Hand-painted nail art | Rhinestones & charms | 3D flowers]"
+   },
+   {
+    "role": "user",
+    "content": "plain"
+   },
+   {
+    "role": "assistant",
+    "content": "Okay o! Which colours are we using?\n[multi: Nude | Milky white | Baby pink | Hot pink | Red | Wine | Black | Chocolate brown | Gold | Silver | Emerald green | Sky blue | Lilac | Coral]"
+   },
+   {
+    "role": "user",
+    "content": "emerald green"
+   },
+   {
+    "role": "assistant",
+    "content": "Which shape do you like?\n[chips: Square | Squoval | Round | Oval | Almond | Coffin | Stiletto]"
+   },
+   {
+    "role": "user",
+    "content": "almond"
+   },
+   {
+    "role": "assistant",
+    "content": "Before I forget, any allergies or special notes for Sugar?\n[chips: No allergies | Sensitive skin | Allergic to acrylic | I have a broken nail]"
+   },
+   {
+    "role": "user",
+    "content": "pls no cutting my cuticles"
+   },
+   {
+    "role": "assistant",
+    "content": "Almost done! When do you want to come in?\n[chips: Right now (walk-in) | Today, afternoon | Today, evening | Tomorrow, morning | Tomorrow, afternoon]"
+   },
+   {
+    "role": "user",
+    "content": "Today, afternoon"
+   },
+   {
+    "role": "assistant",
+    "content": "Perfect, Joy! Here's your booking:\n• Gel Polish (hands): ₦8,000\nColours: Emerald green · Shape: Almond\nNotes: pls no cutting my cuticles · Time: Today, afternoon\nTotal: ₦8,000\nTap Pay to lock your spot in Sugar's queue. 💅\n<order>{\"name\": \"Joy Eze\", \"phone\": \"08187654321\", \"services\": [\"gel_hands\"], \"style\": \"plain\", \"colours\": [\"Emerald green\"], \"length\": \"natural\", \"shape\": \"Almond\", \"notes\": \"pls no cutting my cuticles\", \"time\": \"Today, afternoon\", \"total\": 8000}</order>"
+   }
+  ]
+ ]
+}

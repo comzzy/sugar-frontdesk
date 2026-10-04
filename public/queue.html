@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sugar's queue · Sugar Nails</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#f8dde1">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/styles.css">
+<link rel="stylesheet" href="/static/queue.css">
+</head>
+<body class="q">
+<div class="backdrop" aria-hidden="true">
+  <svg class="swirl" viewBox="0 0 800 800"><path fill="none" stroke="#f6c0ca" stroke-width="46" stroke-linecap="round" d="M60 520C180 380 260 620 400 470S620 300 760 380"/>
+    <path fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".7" d="M90 505C190 400 270 600 400 458"/></svg>
+</div>
+
+<!-- PIN gate -->
+<section class="pin-gate" id="gate">
+  <div class="pin-card">
+    <img src="/static/logo.svg" alt="" class="pin-logo">
+    <h1>Sugar's queue</h1>
+    <p>Enter your PIN to see who's next.</p>
+    <div class="pin-dots" id="dots"><i></i><i></i><i></i><i></i></div>
+    <div class="pad" id="pad">
+      <button>1</button><button>2</button><button>3</button><button>4</button><button>5</button><button>6</button>
+      <button>7</button><button>8</button><button>9</button><span></span><button>0</button><button data-k="del" aria-label="Delete">⌫</button>
+    </div>
+    <a class="link-soft" href="/">Back to booking site</a>
+  </div>
+</section>
+
+<!-- dashboard -->
+<div class="dash" id="dash" hidden>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Sugar Nails"><img src="/static/logo.svg" alt=""><span>Sugar's queue</span></a>
+    <div class="dash-tools">
+      <span class="live"><i></i>Live</span>
+      <button class="pill small" id="sound" aria-pressed="true">🔔 Chime on</button>
+      <button class="pill small" id="lock">Lock</button>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="stats" id="stats">
+      <div class="stat"><small>Waiting</small><b id="sWait">0</b></div>
+      <div class="stat"><small>In the chair</small><b id="sChair">0</b></div>
+      <div class="stat"><small>Done today</small><b id="sDone">0</b></div>
+      <div class="stat"><small>Paid today</small><b id="sMoney">₦0</b></div>
+    </div>
+    <h2 class="q-title">Now in the chair</h2>
+    <div class="cards" id="chair"><p class="empty">Nobody in the chair. Tap <b>Start</b> on the next client.</p></div>
+    <h2 class="q-title">Up next</h2>
+    <div class="cards" id="next"><p class="empty">No one waiting yet. New bookings pop up here by themselves.</p></div>
+    <h2 class="q-title muted">Done today</h2>
+    <div class="cards done" id="done"></div>
+  </main>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<script src="/static/queue.js" defer></script>
+</body>
+</html>
