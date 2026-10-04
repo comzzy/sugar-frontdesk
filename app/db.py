@@ -42,7 +42,7 @@ def _with_positions(rows: list[dict]) -> list[dict]:
 
 # ---------------------------------------------------------------- Vercel Blob backend
 if USE_BLOB:
-    from vercel.blob import get as _bget, list_objects as _blist, put as _bput
+    from vercel.blob import delete as _bdel, get as _bget, list_objects as _blist, put as _bput
 
     def _put(prefix: str, b: dict):
         _bput(f"{prefix}/{b['id']}.json", json.dumps(b).encode(), access="private",
@@ -97,6 +97,22 @@ if USE_BLOB:
             rows = [r for r in ex.map(_load, paths) if r]
         return _with_positions(rows)
 
+    def clear_all() -> int:
+        """Delete every booking (queue + drafts). Returns how many were removed."""
+        n = 0
+        for prefix in ("queue/", "drafts/"):
+            cursor = None
+            while True:
+                res = _blist(prefix=prefix, limit=500, cursor=cursor) if cursor else _blist(prefix=prefix, limit=500)
+                urls = [i.url for i in res.blobs]
+                if urls:
+                    _bdel(urls)
+                    n += len(urls) if prefix == "queue/" else 0
+                if not res.has_more:
+                    break
+                cursor = res.cursor
+        return n
+
 # ---------------------------------------------------------------- SQLite backend
 else:
     def _conn():
@@ -147,3 +163,9 @@ else:
         with _conn() as c:
             rows = c.execute("SELECT * FROM bookings WHERE paid=1").fetchall()
         return _with_positions([_row(r) for r in rows])
+
+    def clear_all() -> int:
+        with _lock, _conn() as c:
+            n = c.execute("SELECT COUNT(*) FROM bookings WHERE paid=1").fetchone()[0]
+            c.execute("DELETE FROM bookings")
+        return n

@@ -39,6 +39,12 @@
     else { $("#dots").classList.add("shake"); setTimeout(() => { $("#dots").classList.remove("shake"); entry = ""; paint(); }, 450); }
   }
   function open() { $("#gate").hidden = true; $("#dash").hidden = false; refresh(); timer = setInterval(refresh, 3000); }
+  $("#clearAll").addEventListener("click", async () => {
+    if (!confirm("Clear every booking from the queue? This can't be undone.")) return;
+    const r = await fetch("/api/queue/clear", { method: "POST", headers: { "X-Pin": pin } });
+    if (r.ok) { const d = await r.json(); known = new Set(); toast(`Cleared ${d.removed} booking${d.removed === 1 ? "" : "s"}`); await refresh(); }
+    else toast("Couldn't clear the queue");
+  });
   $("#lock").addEventListener("click", () => { sessionStorage.removeItem("sugar-pin"); location.reload(); });
   $("#sound").addEventListener("click", (e) => { chime = !chime; e.target.textContent = chime ? "🔔 Chime on" : "🔕 Chime off"; e.target.setAttribute("aria-pressed", chime); });
 

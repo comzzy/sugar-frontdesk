@@ -61,5 +61,6 @@
   .cards { grid-template-columns: 1fr; }
   .dash-tools .pill { padding: 0 12px; }
   #sound { display: none; }
+  #clearAll { font-size: .68rem; padding: 0 10px; }
   .brand span { font-size: 1.3rem; }
 }

@@ -188,6 +188,13 @@ def get_queue(x_pin: str | None = Header(default=None)):
     return {"queue": db.queue(), "now": time.time()}
 
 
+@app.post("/api/queue/clear")
+def queue_clear(x_pin: str | None = Header(default=None)):
+    """Sugar's 'clear test bookings' action: empties the queue and unpaid drafts."""
+    _check_pin(x_pin)
+    return {"ok": True, "removed": db.clear_all()}
+
+
 @app.post("/api/queue/{bid}/{action}")
 def queue_action(bid: str, action: str, x_pin: str | None = Header(default=None)):
     _check_pin(x_pin)
