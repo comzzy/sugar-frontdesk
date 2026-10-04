@@ -8,11 +8,11 @@ This is a small website that does the front-desk part for her.
 
 **Taking the booking.** A customer opens the site on their phone and chats with the front desk. It talks the way a Port Harcourt receptionist would: plain English with a bit of Pidgin, one question at a time. It asks for name, phone number, services, style, colours, length, shape, allergies and preferred time. They can tap options or just type "abeg I wan do gel x, long coffin, french tip", and it handles both. At the end it shows the full order and the total in naira.
 
-**Payment up front.** The customer pays before joining the queue, so there are no "I'll transfer later" bookings and no chasing people. It uses Paystack checkout when a key is set. Without a key it shows a clearly labelled test payment and no money moves.
+**Payment up front.** The customer pays before joining the queue, so there are no "I'll transfer later" bookings and no chasing people. Setting a Paystack key switches on Paystack checkout. Until Sugar's account is connected, payments in the demo are simulated.
 
 **Knowing who's next.** Sugar keeps `/queue` open on her phone or a tablet, behind a PIN. It shows who's in the chair, who's next and everyone after that, and each card has the full order: services, style, colours, length, shape, notes, price and whether they've paid. When she starts a client she taps **Start**, and when she finishes she taps **Done**. The page updates on its own and chimes when a new paid booking comes in. Each customer also gets a ticket showing their place in line, so nobody has to guess.
 
-There's also a **Clear test bookings** button on the queue page (PIN-protected, and it asks first). It's for wiping practice bookings before going live.
+There's also a **Clear all bookings** button on the queue page (PIN-protected, and it asks first). It's for wiping practice bookings before going live.
 
 ## The model
 
@@ -64,7 +64,7 @@ python -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
 export TINKER_API_KEY=...                # optional; without it the rule-based engine answers
 export QUEUE_PIN=2580                    # Sugar's PIN
-# export PAYSTACK_SECRET_KEY=sk_test_... # optional, real Paystack test checkout
+# export PAYSTACK_SECRET_KEY=sk_test_... # optional, switches on Paystack checkout
 uvicorn main:app --app-dir app --port 8090
 ```
 

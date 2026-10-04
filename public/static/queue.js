@@ -69,7 +69,7 @@
     return `<article class="qcard ${st === "in_chair" ? "chair" : ""}" data-id="${b.id}">
       <div class="qtop"><div class="qnum">${label}</div>
         <div><div class="qname">${esc(o.name)}</div><div class="qmeta">${esc(o.phone)} · ${esc(o.time)} · booked ${mins}m ago</div></div>
-        <span class="paid ${b.pay_mode === "mock" ? "test" : ""}">${b.pay_mode === "mock" ? "Paid · test" : "Paid"}</span></div>
+        <span class="paid">Paid</span></div>
       <div class="qsvc">${o.services.map((s) => `<span>${esc(menu.services[s] || s)}</span>`).join("")}</div>
       <dl class="qgrid">
         <dt>Style</dt><dd>${esc(menu.styles[o.style] || o.style)}</dd>

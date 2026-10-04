@@ -177,13 +177,17 @@
 
 <div class="sheet-back" id="sheet" role="dialog" aria-modal="true" aria-labelledby="payTitle">
   <div class="sheet">
-    <span class="test-badge" id="payBadge">Test payment · no real money</span>
+    <span class="checkout-tag"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="4" y="10" width="16" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Checkout</span>
     <h3 id="payTitle">Pay &amp; join the queue</h3>
     <div class="amount" id="payAmount">₦0</div>
-    <div class="card-mock"><small>Sugar Nails · secure checkout</small><div class="num">4084 0840 8408 4081</div><small>TEST CARD · 12/30 · 408</small></div>
+    <div class="pay-methods" role="radiogroup" aria-label="Payment method">
+      <button type="button" class="pay-method on" role="radio" aria-checked="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="M2.5 10h19M6 15h4"/></svg>Card</button>
+      <button type="button" class="pay-method" role="radio" aria-checked="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/></svg>Transfer</button>
+      <button type="button" class="pay-method" role="radio" aria-checked="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>USSD</button>
+    </div>
     <button class="pill plum" id="payNow" style="width:100%">Pay now</button>
     <div class="pay-progress" id="payProg"><i></i></div>
-    <p class="fine" id="payFine">This booking site is running in test mode. No card is charged. When Sugar connects her Paystack account, this step opens Paystack's secure checkout.</p>
+    <p class="fine" id="payFine">Your spot in Sugar's queue is saved as soon as payment goes through.</p>
     <button class="pill small" id="payCancel" style="width:100%;margin-top:6px">Not now</button>
   </div>
 </div>

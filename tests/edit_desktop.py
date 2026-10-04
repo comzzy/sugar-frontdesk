@@ -66,8 +66,8 @@ S = [
         ("Then it shows the whole order and the total. Here, twenty-five thousand naira.",
          "Then it shows the whole order and the total. Here, ₦25,000.")], False),
     ([(M["sheet"], M["ticket"], 1)], [
-        ("She pays before she joins the queue. This is test mode, so no real money moves.",
-         "She pays before she joins the queue. This is test mode, so no real money moves.")], False),
+        ("She pays before she joins the queue, so Sugar never has to chase a transfer.",
+         "She pays before she joins the queue, so Sugar never has to chase a transfer.")], False),
     ([(M["ticket"], M["ticket_end"], 1)], [
         ("Ada gets a ticket with her place in line.", "Ada gets a ticket with her place in line.")], False),
     ([(M["dash"], M["start"], 1)], [

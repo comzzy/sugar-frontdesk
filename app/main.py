@@ -23,7 +23,7 @@ from engine import LOCATION_Q, ScriptedEngine, fix_location, location_answer, no
 PUBLIC = Path(__file__).resolve().parent.parent / "public"
 STATIC = PUBLIC / "static"
 PAYSTACK_SECRET = os.environ.get("PAYSTACK_SECRET_KEY", "")
-PAYMENT_MODE = "paystack" if PAYSTACK_SECRET else "mock"   # mock = clearly-labelled test payment
+PAYMENT_MODE = "paystack" if PAYSTACK_SECRET else "mock"   # mock = simulated payment until Sugar connects Paystack
 QUEUE_PIN = os.environ.get("QUEUE_PIN", "2580")
 PUBLIC_URL = os.environ.get("PUBLIC_URL", "")
 
@@ -133,7 +133,8 @@ async def pay_init(body: PayIn, request: Request):
     return {"mode": "paystack", "authorization_url": data["data"]["authorization_url"], "reference": data["data"]["reference"]}
 
 
-@app.post("/api/pay/mock-confirm")
+@app.post("/api/pay/confirm")
+@app.post("/api/pay/mock-confirm")  # older clients
 def pay_mock(body: PayIn):
     if PAYMENT_MODE != "mock":
         raise HTTPException(400, "mock payments are disabled")

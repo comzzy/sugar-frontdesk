@@ -239,6 +239,9 @@
     $("#payNow").disabled = false; $("#payNow").textContent = "Pay " + naira(o.total);
     sheet.classList.add("open");
   }
+  document.querySelectorAll(".pay-method").forEach((b) => b.addEventListener("click", () => {
+    document.querySelectorAll(".pay-method").forEach((x) => { x.classList.toggle("on", x === b); x.setAttribute("aria-checked", x === b); });
+  }));
   $("#payCancel").addEventListener("click", () => sheet.classList.remove("open"));
   sheet.addEventListener("click", (e) => { if (e.target === sheet) sheet.classList.remove("open"); });
   $("#payNow").addEventListener("click", async () => {
@@ -246,7 +249,7 @@
     $("#payNow").disabled = true; $("#payNow").textContent = "Processing…";
     $("#payProg").style.display = "block"; requestAnimationFrame(() => $("#payProg i").style.width = "100%");
     await new Promise((r) => setTimeout(r, reduce ? 200 : 1500));
-    const r = await fetch("/api/pay/mock-confirm", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ booking_id: paying.booking_id }) });
+    const r = await fetch("/api/pay/confirm", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ booking_id: paying.booking_id }) });
     if (r.ok) { sheet.classList.remove("open"); paid(paying.booking_id); }
     else { $("#payNow").disabled = false; $("#payNow").textContent = "Try again"; }
   });

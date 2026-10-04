@@ -99,6 +99,13 @@ def main():
         for label, vp, mobile in [("desktop", {"width": 1440, "height": 900}, False), ("mobile", {"width": 390, "height": 844}, True)]:
             ctx = b.new_context(viewport=vp, device_scale_factor=2 if mobile else 1, is_mobile=mobile, has_touch=mobile)
             page = ctx.new_page()
+            # only show this test's own bookings on the dashboard, never real customers'
+            page.add_init_script("""(() => {
+                const css = () => { if (document.documentElement && !document.getElementById('keep-css')) { const st = document.createElement('style'); st.id = 'keep-css'; st.textContent = '.qcard:not([data-keep]) { display: none !important; }'; document.documentElement.appendChild(st); } };
+                const keep = () => document.querySelectorAll('.qcard:not([data-keep])').forEach(c => {
+                    if (['Chioma Okafor', 'Blessing'].includes((c.querySelector('.qname') || {}).textContent)) c.dataset.keep = '1'; });
+                new MutationObserver(() => { css(); keep(); }).observe(document, { subtree: true, childList: true }); css();
+            })();""")
             page.goto(BASE + "/queue"); page.wait_for_timeout(900)
             page.screenshot(path=str(SHOTS / f"{label}-07-queue-pin.png"))
             for d in PIN:

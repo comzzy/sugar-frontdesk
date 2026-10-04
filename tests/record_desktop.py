@@ -35,12 +35,11 @@ def screencast(page):
 
 HIDE_OTHERS = """
 (() => {
-  const hide = () => document.querySelectorAll('.qcard').forEach(c => {
-    if ((c.querySelector('.qname') || {}).textContent === 'ADA_NAME') c.style.removeProperty('display');
-    else c.style.setProperty('display', 'none', 'important'); });
-  new MutationObserver(hide).observe(document, { subtree: true, childList: true, characterData: true });
-  setInterval(hide, 100);
-  document.addEventListener('DOMContentLoaded', hide);
+  // every order card is hidden by default; only the example customer's card is let through
+  const css = () => { if (document.documentElement && !document.getElementById('keep-css')) { const st = document.createElement('style'); st.id = 'keep-css'; st.textContent = '.qcard:not([data-keep]) { display: none !important; }'; document.documentElement.appendChild(st); } };
+  const keep = () => document.querySelectorAll('.qcard:not([data-keep])').forEach(c => {
+    if ((c.querySelector('.qname') || {}).textContent === 'ADA_NAME') c.dataset.keep = '1'; });
+  new MutationObserver(() => { css(); keep(); }).observe(document, { subtree: true, childList: true }); css();
 })();
 """.replace("ADA_NAME", NAME)
 

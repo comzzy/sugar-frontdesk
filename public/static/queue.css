@@ -41,7 +41,6 @@
 .qname { font-weight: 700; color: var(--plum-deep); font-size: 1.1rem; line-height: 1.2; }
 .qmeta { color: var(--muted); font-size: .85rem; }
 .paid { margin-left: auto; font-size: .72rem; font-weight: 700; letter-spacing: .8px; text-transform: uppercase; padding: 4px 9px; border-radius: 999px; background: #e3f5ea; color: #2f8a55; white-space: nowrap; }
-.paid.test { background: #fff1d6; color: #8a5300; }
 .qsvc { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
 .qsvc span { background: #fff; border: 1px solid rgba(110,31,46,.14); border-radius: 999px; padding: 4px 10px; font-size: .82rem; color: var(--plum); font-weight: 600; }
 .qgrid { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: .9rem; margin: 8px 0 12px; }
