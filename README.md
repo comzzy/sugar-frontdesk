@@ -52,7 +52,7 @@ customer phone ──► public/index.html + static/app.js
                       ├─► app/engine.py  ScriptedEngine fallback if Tinker is slow/unavailable
                       ├─► normalise_order(): validate against the menu, recompute the price
                       ├─► /api/pay/*  Paystack (if PAYSTACK_SECRET_KEY) or labelled test payment
-                      └─► app/db.py  SQLite queue  ◄── public/queue.html (Sugar, PIN) polls every 3s
+                      └─► app/db.py  SQLite (or private Vercel Blob) queue  ◄── public/queue.html (Sugar, PIN) polls every 3s
 ```
 
 * **The model drives the conversation.** The server never trusts its arithmetic: the order is validated against `app/menu.py` and the total is recomputed before payment. The model's own total is still logged for evaluation.
@@ -96,7 +96,7 @@ This drives two full bookings, one tapping chips on desktop and one typed in Pid
 
 ## Deploying
 
-* **Vercel**: `vercel.json` is included and FastAPI is auto-detected from `app/main.py`, with static assets in `public/`. Set `TINKER_API_KEY` (and optionally `QUEUE_PIN`, `PAYSTACK_SECRET_KEY`) in the project's environment variables. Note that Vercel functions are stateless, so the SQLite queue lives in `/tmp` and resets on cold starts. That's fine for a demo. For real use, point `DB_PATH` at a persistent disk (Render or Fly) or swap in Postgres.
+* **Vercel** (live at https://sugar-nails-nine.vercel.app): `vercel.json` is included and FastAPI is auto-detected from `app/main.py`, with static assets in `public/`. Vercel functions are stateless, so when `BLOB_READ_WRITE_TOKEN` is present (link a **private** Vercel Blob store to the project), `app/db.py` stores each booking as its own private JSON blob and the queue is shared across instances. Set `TINKER_API_KEY` (plus optionally `QUEUE_PIN` and `PAYSTACK_SECRET_KEY`) in the project's environment variables so the fine-tuned model answers. Without it, the fallback engine answers.
 * **Anywhere else**: `uvicorn main:app --app-dir app --host 0.0.0.0 --port $PORT`.
 
 ## Design notes
