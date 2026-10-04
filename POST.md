@@ -1,12 +1,14 @@
 ---
 title: I fine-tuned an open model to be the front desk at my friend's nail studio
 published: true
-tags: hf26challenge, devchallenge, ai, opensource
+tags: devchallenge, weekendchallenge, hf26challenge, ai
 ---
 
-*This is a submission for the [Hacktoberfest Weekend Challenge: Build for a Friend](https://dev.to/devteam/join-the-hacktoberfest-weekend-challenge-build-for-a-friend-2450-in-prizes-across-17-winners-1aj5)*
+*This is a submission for the [Hacktoberfest Weekend Challenge: Build for a Friend](https://dev.to/challenges/hacktoberfest-weekend-2026-10-01)*
 
-## Meet Sugar
+## What I Built
+
+### Meet Sugar
 
 Sugar is my friend. She does nails in GRA, Port Harcourt: gel, acrylic, Gel-X, BIAB, French tips, chrome, little hand-painted flowers. She's good at it, so she's busy.
 
@@ -16,7 +18,7 @@ So people wait, some leave, and the order of who's next lives in her head.
 
 She doesn't need salon software. She needs a front desk: someone to greet people, write down exactly what they want, tell them the price, take payment and give her a clean list of who's next. So I built one.
 
-## What I Built
+### What it does
 
 Two screens.
 
@@ -26,13 +28,28 @@ Two screens.
 
 The front desk is Qwen3-8B, an open-weight model I fine-tuned with LoRA on Tinker. It talks like Sugar's front desk, knows her menu and prices, and ends every booking with a structured order the app can check.
 
+### What Sugar Said
+
+I sent Sugar the link on WhatsApp. Her first reply:
+
+> Wow let me take a look at it
+
+Then she opened the chat on her phone and started booking herself: "Hi can I book a section here?", then "I'm sugar". The fine-tuned model answered in Pidgin, "Welcome o! Wetin be your name?", and carried on to ask for her number. A couple of minutes later she sent me a screenshot with this:
+
+> Wow this is so cool. Thank you so much fren for this amazing gift 😍
+
+![Sugar trying the booking chat on her phone, with her reply](https://raw.githubusercontent.com/comzzy/sugar-frontdesk/main/screenshots/sugar-reaction.jpg)
+
 ## Demo
+
+{% embed https://www.youtube.com/watch?v=ZyzuW1q0ZAE %}
+
+*Narrated walkthrough on desktop (87 s): a booking, payment, the queue ticket, then Sugar tapping Start and Done. The waits for each reply are cut short. If the embed doesn't load, here's the MP4: https://github.com/comzzy/sugar-frontdesk/releases/download/demo-video-v1/demo-desktop.mp4*
 
 ![A full booking on a phone: chat, order summary, payment, queue ticket, then Sugar's queue](https://raw.githubusercontent.com/comzzy/sugar-frontdesk/main/screenshots/demo.gif)
 
 *A real booking on the live site at phone width, answered by the fine-tuned model. The waits for each reply (about 5 seconds) are sped up in the GIF.*
 
-- **Narrated walkthrough (desktop, 87 s):** https://github.com/comzzy/sugar-frontdesk/releases/download/demo-video-v1/demo-desktop.mp4. A booking, payment, the queue ticket, then Sugar tapping Start and Done. The waits for each reply are cut short.
 - **Live site:** https://sugar-nails-nine.vercel.app (Sugar's queue is at `/queue`, demo PIN `2580`)
 - **Code:** https://github.com/comzzy/sugar-frontdesk
 
@@ -64,6 +81,10 @@ Here's a real chat from the live site, answered by the fine-tuned model. The cus
 > **Front desk:** All set, Blessing. Please check: *(order card: Gel-X Extensions ₦20,000 · Classic French tips +₦3,000 · Long length +₦2,000 · Coffin · Nude, Milky white · Total **₦25,000**)* Tap Pay to lock your spot in Sugar's queue. 💅
 
 It read "gel x" as Gel-X Extensions, didn't ask again for the length, shape or style, and moved on to the next thing it didn't know.
+
+## Code
+
+{% embed https://github.com/comzzy/sugar-frontdesk %}
 
 ## How I Built It
 
@@ -151,7 +172,7 @@ There are two safety nets:
 
 FastAPI on the back end, with SQLite when it runs locally and Vercel Blob storage for the live queue. The front end is hand-written HTML, CSS and JS with no framework. I wanted it to feel like Sugar's salon, not a template: blush and cream with deep plum, glossy liquid polish swirls, a script display font, silver-bevel pill buttons and circular frames. All the artwork is CSS or inline SVG I drew myself: a 14-shade swatch wheel made of almond nails that slowly turns, a polish bottle with a drip that falls and refills, nail previews for each style. There are no photos and no generated images. Things move throughout: the title comes in letter by letter, sections reveal on scroll, chat bubbles and typing dots animate, chips pop in, there's a check mark and polish-drop confetti when you pay, and queue cards slide to their new spots. All of it switches off for `prefers-reduced-motion`.
 
-## Did fine-tuning actually help? Before vs after
+### Did fine-tuning actually help? Before vs after
 
 I compared base Qwen3-8B (same system prompt, menu and format instructions) with the fine-tune, and included the rule-based fallback for reference.
 
@@ -182,7 +203,14 @@ The fine-tune isn't perfect. On three held-out bookings it got the total wrong: 
 
 All numbers and full transcripts are in [`training/results/`](https://github.com/comzzy/sugar-frontdesk/tree/main/training/results).
 
-## Why Open Innovation Matters Here
+### What's next
+
+- Retrain on Sugar's real (anonymised) chats after the first few weeks
+- Plug in her Paystack account so the "Pay" button takes real deposits
+- Send a WhatsApp or SMS ping when a customer is next
+- Let customers upload a picture of the design they want, with a vision model reading it into the order
+
+## Why Does Open Innovation Matter?
 
 **Sugar owns her front desk.** The LoRA adapter is a file. Tinker lets me download the weights and the base model is open, so she isn't renting from a closed API that could change its behaviour or prices next month. The cookbook can export it as a standard PEFT adapter or a merged Hugging Face model, so it can run on vLLM anywhere, with or without Tinker.
 
@@ -194,23 +222,8 @@ I measured the running cost by replaying 5 held-out bookings (45 replies) throug
 
 **It can learn her way of talking.** This matters most to me. With a closed model I could only write a long prompt and hope. With an open one, I can fine-tune on Sugar's real chats once she's used it for a few weeks: her actual phrases, the styles her customers really ask for, her new prices. Same script, new dataset, a few dollars. Prompting got the base model to 22.5% exact orders. Training got it to 95%.
 
-## What Sugar Said
+## Prize Categories
 
-I sent Sugar the link on WhatsApp. Her first reply:
-
-> Wow let me take a look at it
-
-Then she opened the chat on her phone and started booking herself: "Hi can I book a section here?", then "I'm sugar". The fine-tuned model answered in Pidgin, "Welcome o! Wetin be your name?", and carried on to ask for her number. A couple of minutes later she sent me a screenshot with this:
-
-> Wow this is so cool. Thank you so much fren for this amazing gift 😍
-
-![Sugar trying the booking chat on her phone, with her reply](https://raw.githubusercontent.com/comzzy/sugar-frontdesk/main/screenshots/sugar-reaction.jpg)
-
-## What's Next
-
-- Retrain on Sugar's real (anonymised) chats after the first few weeks
-- Plug in her Paystack account so the "Pay" button takes real deposits
-- Send a WhatsApp or SMS ping when a customer is next
-- Let customers upload a picture of the design they want, with a vision model reading it into the order
+**Best Use of Tinker.** Tinker is the core of this project, not an add-on. I used the Tinker SDK and `tinker-cookbook` to LoRA fine-tune Qwen3-8B on 1,751 per-turn examples in under 5 minutes for about $1.65. I sampled base and fine-tuned models through Tinker's `SamplingClient` for the before/after evaluation, and the live site serves the fine-tuned checkpoint through Tinker's OpenAI-compatible endpoint, at about ₦0.31 per reply. The fine-tune took exact orders from 22.5% to 95% on held-out chats and completed every one of my hand-written messy Pidgin chats.
 
 Thanks for reading. If you know someone whose hands are always full, they might need a front desk too.

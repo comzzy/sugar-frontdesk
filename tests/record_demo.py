@@ -58,6 +58,12 @@ def main():
         page.locator(".order-card .pay").click(); page.wait_for_selector(".sheet-back.open"); page.wait_for_timeout(1400)
         page.click("#payNow"); page.wait_for_selector(".ticket", timeout=15000); page.wait_for_timeout(2600)  # success + ticket
         bid = None  # find it by diffing GET /api/queue before/after
+        # hide every queue card except this demo's own booking (no real customers on screen)
+        ctx.add_init_script("""(() => {
+          const css = () => { if (document.documentElement && !document.getElementById('keep-css')) { const st = document.createElement('style'); st.id = 'keep-css'; st.textContent = '.qcard:not([data-keep]) { display: none !important; }'; document.documentElement.appendChild(st); } };
+          const keep = () => document.querySelectorAll('.qcard:not([data-keep])').forEach(c => { if ((c.querySelector('.qname') || {}).textContent === 'Tolu') c.dataset.keep = '1'; });
+          new MutationObserver(() => { css(); keep(); }).observe(document, { subtree: true, childList: true }); css();
+        })();""")
         page.goto(BASE + "/queue"); page.wait_for_timeout(700)
         for d in "2580":
             page.locator("#pad button", has_text=d).first.click(); page.wait_for_timeout(150)
